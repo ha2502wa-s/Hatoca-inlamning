@@ -56,7 +56,6 @@
   <ItemGroup>
     <Compile Include="Controller.cs" />
     <Compile Include="DataAccessLayer.cs" />
-    <Compile Include="model.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
