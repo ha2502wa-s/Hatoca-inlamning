@@ -15,5 +15,20 @@ namespace Hatoca_inlamning
 		{
 			InitializeComponent();
 		}
-	}
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabPage3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabPage7_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
 }
