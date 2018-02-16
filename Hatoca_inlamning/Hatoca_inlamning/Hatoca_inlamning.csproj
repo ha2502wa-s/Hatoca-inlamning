@@ -89,12 +89,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>BookingModel.edmx</DependentUpon>
     </Compile>
-    <Compile Include="Controller\Controller.cs" />
+    <Compile Include="PK\Controller\Controller.cs" />
     <Compile Include="Customer.cs">
       <DependentUpon>BookingModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="DAL\DataAccessLayer.cs" />
-    <Compile Include="DAL\Queries.cs" />
+    <Compile Include="PK\DAL\DataAccessLayer.cs" />
+    <Compile Include="PK\DAL\Queries.cs" />
     <Compile Include="Gymsession.cs">
       <DependentUpon>BookingModel.tt</DependentUpon>
     </Compile>
