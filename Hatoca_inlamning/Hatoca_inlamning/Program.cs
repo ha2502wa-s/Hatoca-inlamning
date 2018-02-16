@@ -9,7 +9,7 @@ namespace Hatoca_inlamning
 	{
 		static void Main(string[] args)
 		{
-            /*using (var db = new BookingContext())
+			/*using (var db = new BookingContext())
             {
                 Console.Write("Enter a name for a customer: ");
                 var cname = Console.ReadLine();
@@ -29,8 +29,7 @@ namespace Hatoca_inlamning
                 Console.ReadKey();
             }*/
 
-
-        }
+		}
 
 	}
 }

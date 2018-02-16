@@ -9,11 +9,12 @@
 
 namespace Hatoca_inlamning
 {
-    using System;
-    using System.Data.Entity;
-    using System.Data.Entity.Infrastructure;
-    
-    public partial class BookingContext : DbContext
+	using System;
+	using System.Data.Entity;
+	using System.Data.Entity.Infrastructure;
+	using System.IO;
+
+	public partial class BookingContext : DbContext
     {
         public BookingContext()
             : base("name=BookingContext")
@@ -27,5 +28,6 @@ namespace Hatoca_inlamning
     
         public virtual DbSet<Customer> Customers { get; set; }
         public virtual DbSet<Gymsession> Gymsessions { get; set; }
-    }
+		public TextWriter Log { get; internal set; }
+	}
 }
