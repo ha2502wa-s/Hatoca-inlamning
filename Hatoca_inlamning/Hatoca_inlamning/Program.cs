@@ -26,10 +26,10 @@ namespace Hatoca_inlamning
                 foreach (var item in query)
                 { Console.WriteLine(item.cname); }
                 Console.WriteLine("Press any key to exit...");
-                Console.ReadKey();
-            }*/
+                Console.ReadKey();*/
+            }
 
 		}
 
 	}
-}
+
