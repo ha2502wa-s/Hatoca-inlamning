@@ -8,11 +8,10 @@ namespace Hatoca_inlamning
 {
 	class Program
 	{
-		[STAThread]
+
 		static void Main()
 		{
-			Application app = new Application();
-			//Application.Run(app);
+			//Application.Run(new Form());
 		}
 		/*using (var db = new BookingContext())
 		{

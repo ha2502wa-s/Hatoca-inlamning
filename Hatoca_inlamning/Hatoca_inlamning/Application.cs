@@ -73,5 +73,10 @@ namespace Hatoca_inlamning
 		{
 
 		}
+
+		private void ListB_SesInfo_PK_SelectedIndexChanged(object sender, EventArgs e)
+		{
+
+		}
 	}
 }

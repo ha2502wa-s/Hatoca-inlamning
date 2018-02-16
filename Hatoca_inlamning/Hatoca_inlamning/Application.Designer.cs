@@ -357,6 +357,7 @@
 			this.ListB_SesInfo_PK.Name = "ListB_SesInfo_PK";
 			this.ListB_SesInfo_PK.Size = new System.Drawing.Size(504, 628);
 			this.ListB_SesInfo_PK.TabIndex = 13;
+			this.ListB_SesInfo_PK.SelectedIndexChanged += new System.EventHandler(this.ListB_SesInfo_PK_SelectedIndexChanged);
 			// 
 			// TextB_Spots_SesInfo_PK
 			// 
