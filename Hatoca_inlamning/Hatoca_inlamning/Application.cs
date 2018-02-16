@@ -52,5 +52,15 @@ namespace Hatoca_inlamning
         {
 
         }
+
+        private void TextB_SesID_SesInfo_PK_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Botton_Add_SesInfo_PK_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
