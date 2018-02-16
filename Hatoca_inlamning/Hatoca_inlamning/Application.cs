@@ -16,6 +16,7 @@ namespace Hatoca_inlamning
 		[STAThread]
 		public static void Main()
 		{
+
 		}
 
 	
