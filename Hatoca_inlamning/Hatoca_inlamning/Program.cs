@@ -12,7 +12,7 @@ namespace Hatoca_inlamning
 		static void Main()
 		{
 			Application app = new Application();
-			Application.Run(app);
+			//Application.Run(app);
 		}
 		/*using (var db = new BookingContext())
 		{
