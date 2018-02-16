@@ -10,16 +10,10 @@ using System.Data.SqlClient;
 
 namespace Hatoca_inlamning
 {
-    public partial class Application : Form
-    {
 
-		[STAThread]
-		public static void Main()
-		{
 
-		}
-
-	
+	public partial class Application : Form
+	{
 
 		public Application()
         {

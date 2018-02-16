@@ -8,11 +8,12 @@ namespace Hatoca_inlamning
 {
 	class Program
 	{
-		/*static void Main(string[] args)
+		[STAThread]
+		static void Main()
 		{
-			Application.Run(new Form1());
-		}/*
-
+			Application app = new Application();
+			Application.Run(app);
+		}
 		/*using (var db = new BookingContext())
 		{
 			Console.Write("Enter a name for a customer: ");
