@@ -30,64 +30,63 @@
 		{
             this.TabText_PK = new System.Windows.Forms.TabControl();
             this.TabText_Upp1 = new System.Windows.Forms.TabPage();
-            this.TabText_Upp2 = new System.Windows.Forms.TabPage();
             this.TebText_SesInfo_PK = new System.Windows.Forms.TabControl();
             this.TabText_SessionInformation = new System.Windows.Forms.TabPage();
+            this.Botton_Book_Book_PK = new System.Windows.Forms.Button();
+            this.Botton_ShowAll_SesInfo_PK = new System.Windows.Forms.Button();
+            this.Botton_Delete_SesInfo_PK = new System.Windows.Forms.Button();
+            this.Botton_Search_SesInfo_PK = new System.Windows.Forms.Button();
+            this.Botton_Add_SesInfo_PK = new System.Windows.Forms.Button();
+            this.TextB_Pnr_Book_PK = new System.Windows.Forms.TextBox();
+            this.TextB_SesID_Book_PK = new System.Windows.Forms.TextBox();
+            this.ListB_SesInfo_PK = new System.Windows.Forms.ListBox();
+            this.TextB_Spots_SesInfo_PK = new System.Windows.Forms.TextBox();
+            this.TextB_SesID_SesInfo_PK = new System.Windows.Forms.TextBox();
+            this.Text_Pnr_Book_Pk = new System.Windows.Forms.Label();
+            this.Text_SesID_Book_PK = new System.Windows.Forms.Label();
+            this.Text_Spots_SesInfo_PK = new System.Windows.Forms.Label();
+            this.Text_Time_SesInfo_PK = new System.Windows.Forms.Label();
+            this.Text_Title_SesID_PK = new System.Windows.Forms.Label();
+            this.Text_SesID_SesID_PK = new System.Windows.Forms.Label();
+            this.Text_SesInfo_SesInfo = new System.Windows.Forms.Label();
             this.TabText_MemberInformation = new System.Windows.Forms.TabPage();
+            this.Botton_CancelRes_MembInfo_PK = new System.Windows.Forms.Button();
+            this.Botton_SearchCust_MembInfo_PK = new System.Windows.Forms.Button();
+            this.Botton_DeleteCust_MemInfo_PK = new System.Windows.Forms.Button();
+            this.Botton_AddCust_MemInfo_PK = new System.Windows.Forms.Button();
+            this.Text_SesID_Cancel_PK = new System.Windows.Forms.Label();
+            this.Text_Pnr_Cancel_PK = new System.Windows.Forms.Label();
+            this.TextB_SesID_Cancel_PK = new System.Windows.Forms.TextBox();
+            this.TextB_Pnr_Cancel_PK = new System.Windows.Forms.TextBox();
+            this.ListB_PreSes_MembInfo_PK = new System.Windows.Forms.ListBox();
+            this.ListB_UpSes_MembInfo_PK = new System.Windows.Forms.ListBox();
+            this.Text_PreSes_PK = new System.Windows.Forms.Label();
+            this.Text_UpSes_PK = new System.Windows.Forms.Label();
+            this.TextB_Mail_MemInfo_PK = new System.Windows.Forms.TextBox();
+            this.TextB_Nbr_MemInfo_PK = new System.Windows.Forms.TextBox();
+            this.TextB_Address_MemInfo_PK = new System.Windows.Forms.TextBox();
+            this.TextB_Name_MemInfo_PK = new System.Windows.Forms.TextBox();
+            this.TextB_Pnr_MemInfo_PK = new System.Windows.Forms.TextBox();
+            this.Text_Mail_MemInfo_PK = new System.Windows.Forms.Label();
+            this.Text_nbr_MemInfo_Pk = new System.Windows.Forms.Label();
+            this.Text_Adress_MemInfo_PK = new System.Windows.Forms.Label();
+            this.Text_Name_MemInfo_PK = new System.Windows.Forms.Label();
+            this.Text_Pnr_MemInfo_PK = new System.Windows.Forms.Label();
+            this.Text_MemInfo_PK = new System.Windows.Forms.Label();
+            this.TabText_Upp2 = new System.Windows.Forms.TabPage();
             this.tabControl3 = new System.Windows.Forms.TabControl();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.TabText_Upp3 = new System.Windows.Forms.TabPage();
-            this.Text_SesInfo_SesInfo = new System.Windows.Forms.Label();
-            this.Text_MemInfo_PK = new System.Windows.Forms.Label();
-            this.Text_SesID_SesID_PK = new System.Windows.Forms.Label();
-            this.Text_Title_SesID_PK = new System.Windows.Forms.Label();
-            this.Text_Loc_SesInfo_PK = new System.Windows.Forms.Label();
-            this.Text_Time_SesInfo_PK = new System.Windows.Forms.Label();
-            this.Text_Spots_SesInfo_PK = new System.Windows.Forms.Label();
-            this.Text_SesID_Book_PK = new System.Windows.Forms.Label();
-            this.Text_Pnr_Book_Pk = new System.Windows.Forms.Label();
-            this.TextB_SesID_SesInfo_PK = new System.Windows.Forms.TextBox();
-            this.TextB_Title_SesInfo_PK = new System.Windows.Forms.TextBox();
-            this.TextB_Loc_SesInfo_PK = new System.Windows.Forms.TextBox();
-            this.TextB_Time_SesInfo_PK = new System.Windows.Forms.TextBox();
-            this.TextB_Spots_SesInfo_PK = new System.Windows.Forms.TextBox();
-            this.ListB_SesInfo_PK = new System.Windows.Forms.ListBox();
-            this.TextB_SesID_Book_PK = new System.Windows.Forms.TextBox();
-            this.TextB_Pnr_Book_PK = new System.Windows.Forms.TextBox();
-            this.Botton_Add_SesInfo_PK = new System.Windows.Forms.Button();
-            this.Botton_Search_SesInfo_PK = new System.Windows.Forms.Button();
-            this.Botton_Delete_SesInfo_PK = new System.Windows.Forms.Button();
-            this.Botton_ShowAll_SesInfo_PK = new System.Windows.Forms.Button();
-            this.Botton_Book_Book_PK = new System.Windows.Forms.Button();
-            this.Text_Pnr_MemInfo_PK = new System.Windows.Forms.Label();
-            this.Text_Name_MemInfo_PK = new System.Windows.Forms.Label();
-            this.Text_Adress_MemInfo_PK = new System.Windows.Forms.Label();
-            this.Text_nbr_MemInfo_Pk = new System.Windows.Forms.Label();
-            this.Text_Mail_MemInfo_PK = new System.Windows.Forms.Label();
-            this.TextB_Pnr_MemInfo_PK = new System.Windows.Forms.TextBox();
-            this.TextB_Name_MemInfo_PK = new System.Windows.Forms.TextBox();
-            this.TextB_Address_MemInfo_PK = new System.Windows.Forms.TextBox();
-            this.TextB_Nbr_MemInfo_PK = new System.Windows.Forms.TextBox();
-            this.TextB_Mail_MemInfo_PK = new System.Windows.Forms.TextBox();
-            this.Text_UpSes_PK = new System.Windows.Forms.Label();
-            this.Text_PreSes_PK = new System.Windows.Forms.Label();
-            this.ListB_UpSes_MembInfo_PK = new System.Windows.Forms.ListBox();
-            this.ListB_PreSes_MembInfo_PK = new System.Windows.Forms.ListBox();
-            this.TextB_Pnr_Cancel_PK = new System.Windows.Forms.TextBox();
-            this.TextB_SesID_Cancel_PK = new System.Windows.Forms.TextBox();
-            this.Text_Pnr_Cancel_PK = new System.Windows.Forms.Label();
-            this.Text_SesID_Cancel_PK = new System.Windows.Forms.Label();
-            this.Botton_AddCust_MemInfo_PK = new System.Windows.Forms.Button();
-            this.Botton_DeleteCust_MemInfo_PK = new System.Windows.Forms.Button();
-            this.Botton_SearchCust_MembInfo_PK = new System.Windows.Forms.Button();
-            this.Botton_CancelRes_MembInfo_PK = new System.Windows.Forms.Button();
+            this.CBox_Title_PK = new System.Windows.Forms.ComboBox();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.Text_BookSes_PK = new System.Windows.Forms.Label();
             this.TabText_PK.SuspendLayout();
             this.TabText_Upp1.SuspendLayout();
-            this.TabText_Upp2.SuspendLayout();
             this.TebText_SesInfo_PK.SuspendLayout();
             this.TabText_SessionInformation.SuspendLayout();
             this.TabText_MemberInformation.SuspendLayout();
+            this.TabText_Upp2.SuspendLayout();
             this.tabControl3.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -114,18 +113,6 @@
             this.TabText_Upp1.Text = "Uppgift 1 - PK ";
             this.TabText_Upp1.UseVisualStyleBackColor = true;
             // 
-            // TabText_Upp2
-            // 
-            this.TabText_Upp2.Controls.Add(this.tabControl3);
-            this.TabText_Upp2.Font = new System.Drawing.Font("Calibri Light", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TabText_Upp2.Location = new System.Drawing.Point(4, 33);
-            this.TabText_Upp2.Name = "TabText_Upp2";
-            this.TabText_Upp2.Padding = new System.Windows.Forms.Padding(3);
-            this.TabText_Upp2.Size = new System.Drawing.Size(1675, 802);
-            this.TabText_Upp2.TabIndex = 1;
-            this.TabText_Upp2.Text = "Uppgift 2 - Webservice";
-            this.TabText_Upp2.UseVisualStyleBackColor = true;
-            // 
             // TebText_SesInfo_PK
             // 
             this.TebText_SesInfo_PK.Controls.Add(this.TabText_SessionInformation);
@@ -138,6 +125,9 @@
             // 
             // TabText_SessionInformation
             // 
+            this.TabText_SessionInformation.Controls.Add(this.Text_BookSes_PK);
+            this.TabText_SessionInformation.Controls.Add(this.dateTimePicker1);
+            this.TabText_SessionInformation.Controls.Add(this.CBox_Title_PK);
             this.TabText_SessionInformation.Controls.Add(this.Botton_Book_Book_PK);
             this.TabText_SessionInformation.Controls.Add(this.Botton_ShowAll_SesInfo_PK);
             this.TabText_SessionInformation.Controls.Add(this.Botton_Delete_SesInfo_PK);
@@ -147,15 +137,11 @@
             this.TabText_SessionInformation.Controls.Add(this.TextB_SesID_Book_PK);
             this.TabText_SessionInformation.Controls.Add(this.ListB_SesInfo_PK);
             this.TabText_SessionInformation.Controls.Add(this.TextB_Spots_SesInfo_PK);
-            this.TabText_SessionInformation.Controls.Add(this.TextB_Time_SesInfo_PK);
-            this.TabText_SessionInformation.Controls.Add(this.TextB_Loc_SesInfo_PK);
-            this.TabText_SessionInformation.Controls.Add(this.TextB_Title_SesInfo_PK);
             this.TabText_SessionInformation.Controls.Add(this.TextB_SesID_SesInfo_PK);
             this.TabText_SessionInformation.Controls.Add(this.Text_Pnr_Book_Pk);
             this.TabText_SessionInformation.Controls.Add(this.Text_SesID_Book_PK);
             this.TabText_SessionInformation.Controls.Add(this.Text_Spots_SesInfo_PK);
             this.TabText_SessionInformation.Controls.Add(this.Text_Time_SesInfo_PK);
-            this.TabText_SessionInformation.Controls.Add(this.Text_Loc_SesInfo_PK);
             this.TabText_SessionInformation.Controls.Add(this.Text_Title_SesID_PK);
             this.TabText_SessionInformation.Controls.Add(this.Text_SesID_SesID_PK);
             this.TabText_SessionInformation.Controls.Add(this.Text_SesInfo_SesInfo);
@@ -167,6 +153,170 @@
             this.TabText_SessionInformation.Text = "Session Information";
             this.TabText_SessionInformation.UseVisualStyleBackColor = true;
             this.TabText_SessionInformation.Click += new System.EventHandler(this.tabPage3_Click);
+            // 
+            // Botton_Book_Book_PK
+            // 
+            this.Botton_Book_Book_PK.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.Botton_Book_Book_PK.Font = new System.Drawing.Font("Calibri Light", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Botton_Book_Book_PK.Location = new System.Drawing.Point(249, 598);
+            this.Botton_Book_Book_PK.Name = "Botton_Book_Book_PK";
+            this.Botton_Book_Book_PK.Size = new System.Drawing.Size(164, 49);
+            this.Botton_Book_Book_PK.TabIndex = 20;
+            this.Botton_Book_Book_PK.Text = "Book";
+            this.Botton_Book_Book_PK.UseVisualStyleBackColor = false;
+            // 
+            // Botton_ShowAll_SesInfo_PK
+            // 
+            this.Botton_ShowAll_SesInfo_PK.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.Botton_ShowAll_SesInfo_PK.Font = new System.Drawing.Font("Calibri Light", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Botton_ShowAll_SesInfo_PK.Location = new System.Drawing.Point(249, 330);
+            this.Botton_ShowAll_SesInfo_PK.Name = "Botton_ShowAll_SesInfo_PK";
+            this.Botton_ShowAll_SesInfo_PK.Size = new System.Drawing.Size(164, 49);
+            this.Botton_ShowAll_SesInfo_PK.TabIndex = 19;
+            this.Botton_ShowAll_SesInfo_PK.Text = "Show All ";
+            this.Botton_ShowAll_SesInfo_PK.UseVisualStyleBackColor = false;
+            // 
+            // Botton_Delete_SesInfo_PK
+            // 
+            this.Botton_Delete_SesInfo_PK.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.Botton_Delete_SesInfo_PK.Font = new System.Drawing.Font("Calibri Light", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Botton_Delete_SesInfo_PK.Location = new System.Drawing.Point(249, 230);
+            this.Botton_Delete_SesInfo_PK.Name = "Botton_Delete_SesInfo_PK";
+            this.Botton_Delete_SesInfo_PK.Size = new System.Drawing.Size(164, 49);
+            this.Botton_Delete_SesInfo_PK.TabIndex = 18;
+            this.Botton_Delete_SesInfo_PK.Text = "Delete";
+            this.Botton_Delete_SesInfo_PK.UseVisualStyleBackColor = false;
+            // 
+            // Botton_Search_SesInfo_PK
+            // 
+            this.Botton_Search_SesInfo_PK.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.Botton_Search_SesInfo_PK.Font = new System.Drawing.Font("Calibri Light", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Botton_Search_SesInfo_PK.Location = new System.Drawing.Point(467, 230);
+            this.Botton_Search_SesInfo_PK.Name = "Botton_Search_SesInfo_PK";
+            this.Botton_Search_SesInfo_PK.Size = new System.Drawing.Size(164, 49);
+            this.Botton_Search_SesInfo_PK.TabIndex = 17;
+            this.Botton_Search_SesInfo_PK.Text = "Search";
+            this.Botton_Search_SesInfo_PK.UseVisualStyleBackColor = false;
+            // 
+            // Botton_Add_SesInfo_PK
+            // 
+            this.Botton_Add_SesInfo_PK.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.Botton_Add_SesInfo_PK.Font = new System.Drawing.Font("Calibri Light", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Botton_Add_SesInfo_PK.Location = new System.Drawing.Point(43, 230);
+            this.Botton_Add_SesInfo_PK.Name = "Botton_Add_SesInfo_PK";
+            this.Botton_Add_SesInfo_PK.Size = new System.Drawing.Size(164, 49);
+            this.Botton_Add_SesInfo_PK.TabIndex = 16;
+            this.Botton_Add_SesInfo_PK.Text = "Add";
+            this.Botton_Add_SesInfo_PK.UseVisualStyleBackColor = false;
+            // 
+            // TextB_Pnr_Book_PK
+            // 
+            this.TextB_Pnr_Book_PK.Location = new System.Drawing.Point(467, 502);
+            this.TextB_Pnr_Book_PK.Name = "TextB_Pnr_Book_PK";
+            this.TextB_Pnr_Book_PK.Size = new System.Drawing.Size(232, 32);
+            this.TextB_Pnr_Book_PK.TabIndex = 15;
+            // 
+            // TextB_SesID_Book_PK
+            // 
+            this.TextB_SesID_Book_PK.Location = new System.Drawing.Point(133, 502);
+            this.TextB_SesID_Book_PK.Name = "TextB_SesID_Book_PK";
+            this.TextB_SesID_Book_PK.Size = new System.Drawing.Size(232, 32);
+            this.TextB_SesID_Book_PK.TabIndex = 14;
+            // 
+            // ListB_SesInfo_PK
+            // 
+            this.ListB_SesInfo_PK.FormattingEnabled = true;
+            this.ListB_SesInfo_PK.ItemHeight = 24;
+            this.ListB_SesInfo_PK.Location = new System.Drawing.Point(726, 63);
+            this.ListB_SesInfo_PK.Name = "ListB_SesInfo_PK";
+            this.ListB_SesInfo_PK.Size = new System.Drawing.Size(504, 628);
+            this.ListB_SesInfo_PK.TabIndex = 13;
+            // 
+            // TextB_Spots_SesInfo_PK
+            // 
+            this.TextB_Spots_SesInfo_PK.Location = new System.Drawing.Point(467, 109);
+            this.TextB_Spots_SesInfo_PK.Name = "TextB_Spots_SesInfo_PK";
+            this.TextB_Spots_SesInfo_PK.Size = new System.Drawing.Size(232, 32);
+            this.TextB_Spots_SesInfo_PK.TabIndex = 12;
+            // 
+            // TextB_SesID_SesInfo_PK
+            // 
+            this.TextB_SesID_SesInfo_PK.Location = new System.Drawing.Point(133, 63);
+            this.TextB_SesID_SesInfo_PK.Name = "TextB_SesID_SesInfo_PK";
+            this.TextB_SesID_SesInfo_PK.Size = new System.Drawing.Size(232, 32);
+            this.TextB_SesID_SesInfo_PK.TabIndex = 8;
+            // 
+            // Text_Pnr_Book_Pk
+            // 
+            this.Text_Pnr_Book_Pk.AutoSize = true;
+            this.Text_Pnr_Book_Pk.Font = new System.Drawing.Font("Calibri Light", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Text_Pnr_Book_Pk.Location = new System.Drawing.Point(393, 505);
+            this.Text_Pnr_Book_Pk.Name = "Text_Pnr_Book_Pk";
+            this.Text_Pnr_Book_Pk.Size = new System.Drawing.Size(52, 24);
+            this.Text_Pnr_Book_Pk.TabIndex = 7;
+            this.Text_Pnr_Book_Pk.Text = "Pnr*:";
+            // 
+            // Text_SesID_Book_PK
+            // 
+            this.Text_SesID_Book_PK.AutoSize = true;
+            this.Text_SesID_Book_PK.Font = new System.Drawing.Font("Calibri Light", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Text_SesID_Book_PK.Location = new System.Drawing.Point(9, 502);
+            this.Text_SesID_Book_PK.Name = "Text_SesID_Book_PK";
+            this.Text_SesID_Book_PK.Size = new System.Drawing.Size(106, 24);
+            this.Text_SesID_Book_PK.TabIndex = 6;
+            this.Text_SesID_Book_PK.Text = "Session ID* ";
+            // 
+            // Text_Spots_SesInfo_PK
+            // 
+            this.Text_Spots_SesInfo_PK.AutoSize = true;
+            this.Text_Spots_SesInfo_PK.Font = new System.Drawing.Font("Calibri Light", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Text_Spots_SesInfo_PK.Location = new System.Drawing.Point(386, 115);
+            this.Text_Spots_SesInfo_PK.Name = "Text_Spots_SesInfo_PK";
+            this.Text_Spots_SesInfo_PK.Size = new System.Drawing.Size(59, 24);
+            this.Text_Spots_SesInfo_PK.TabIndex = 5;
+            this.Text_Spots_SesInfo_PK.Text = "Spots:";
+            // 
+            // Text_Time_SesInfo_PK
+            // 
+            this.Text_Time_SesInfo_PK.AutoSize = true;
+            this.Text_Time_SesInfo_PK.Font = new System.Drawing.Font("Calibri Light", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Text_Time_SesInfo_PK.Location = new System.Drawing.Point(386, 66);
+            this.Text_Time_SesInfo_PK.Name = "Text_Time_SesInfo_PK";
+            this.Text_Time_SesInfo_PK.Size = new System.Drawing.Size(53, 24);
+            this.Text_Time_SesInfo_PK.TabIndex = 4;
+            this.Text_Time_SesInfo_PK.Text = "Date:";
+            this.Text_Time_SesInfo_PK.Click += new System.EventHandler(this.Text_Time_SesInfo_PK_Click);
+            // 
+            // Text_Title_SesID_PK
+            // 
+            this.Text_Title_SesID_PK.AutoSize = true;
+            this.Text_Title_SesID_PK.Font = new System.Drawing.Font("Calibri Light", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Text_Title_SesID_PK.Location = new System.Drawing.Point(9, 112);
+            this.Text_Title_SesID_PK.Name = "Text_Title_SesID_PK";
+            this.Text_Title_SesID_PK.Size = new System.Drawing.Size(50, 24);
+            this.Text_Title_SesID_PK.TabIndex = 2;
+            this.Text_Title_SesID_PK.Text = "Title:";
+            // 
+            // Text_SesID_SesID_PK
+            // 
+            this.Text_SesID_SesID_PK.AutoSize = true;
+            this.Text_SesID_SesID_PK.Font = new System.Drawing.Font("Calibri Light", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Text_SesID_SesID_PK.Location = new System.Drawing.Point(9, 63);
+            this.Text_SesID_SesID_PK.Name = "Text_SesID_SesID_PK";
+            this.Text_SesID_SesID_PK.Size = new System.Drawing.Size(111, 24);
+            this.Text_SesID_SesID_PK.TabIndex = 1;
+            this.Text_SesID_SesID_PK.Text = "Session ID*: ";
+            this.Text_SesID_SesID_PK.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // Text_SesInfo_SesInfo
+            // 
+            this.Text_SesInfo_SesInfo.AutoSize = true;
+            this.Text_SesInfo_SesInfo.Font = new System.Drawing.Font("Calibri Light", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Text_SesInfo_SesInfo.Location = new System.Drawing.Point(7, 3);
+            this.Text_SesInfo_SesInfo.Name = "Text_SesInfo_SesInfo";
+            this.Text_SesInfo_SesInfo.Size = new System.Drawing.Size(246, 35);
+            this.Text_SesInfo_SesInfo.TabIndex = 0;
+            this.Text_SesInfo_SesInfo.Text = "Session Information ";
             // 
             // TabText_MemberInformation
             // 
@@ -200,6 +350,229 @@
             this.TabText_MemberInformation.TabIndex = 1;
             this.TabText_MemberInformation.Text = "Member Information";
             this.TabText_MemberInformation.UseVisualStyleBackColor = true;
+            // 
+            // Botton_CancelRes_MembInfo_PK
+            // 
+            this.Botton_CancelRes_MembInfo_PK.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.Botton_CancelRes_MembInfo_PK.Font = new System.Drawing.Font("Calibri Light", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Botton_CancelRes_MembInfo_PK.Location = new System.Drawing.Point(1251, 651);
+            this.Botton_CancelRes_MembInfo_PK.Name = "Botton_CancelRes_MembInfo_PK";
+            this.Botton_CancelRes_MembInfo_PK.Size = new System.Drawing.Size(339, 40);
+            this.Botton_CancelRes_MembInfo_PK.TabIndex = 25;
+            this.Botton_CancelRes_MembInfo_PK.Text = "Cancel Reservation";
+            this.Botton_CancelRes_MembInfo_PK.UseVisualStyleBackColor = false;
+            // 
+            // Botton_SearchCust_MembInfo_PK
+            // 
+            this.Botton_SearchCust_MembInfo_PK.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.Botton_SearchCust_MembInfo_PK.Font = new System.Drawing.Font("Calibri Light", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Botton_SearchCust_MembInfo_PK.Location = new System.Drawing.Point(1251, 168);
+            this.Botton_SearchCust_MembInfo_PK.Name = "Botton_SearchCust_MembInfo_PK";
+            this.Botton_SearchCust_MembInfo_PK.Size = new System.Drawing.Size(339, 40);
+            this.Botton_SearchCust_MembInfo_PK.TabIndex = 24;
+            this.Botton_SearchCust_MembInfo_PK.Text = "Search Customer";
+            this.Botton_SearchCust_MembInfo_PK.UseVisualStyleBackColor = false;
+            // 
+            // Botton_DeleteCust_MemInfo_PK
+            // 
+            this.Botton_DeleteCust_MemInfo_PK.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.Botton_DeleteCust_MemInfo_PK.Font = new System.Drawing.Font("Calibri Light", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Botton_DeleteCust_MemInfo_PK.Location = new System.Drawing.Point(1251, 112);
+            this.Botton_DeleteCust_MemInfo_PK.Name = "Botton_DeleteCust_MemInfo_PK";
+            this.Botton_DeleteCust_MemInfo_PK.Size = new System.Drawing.Size(339, 40);
+            this.Botton_DeleteCust_MemInfo_PK.TabIndex = 23;
+            this.Botton_DeleteCust_MemInfo_PK.Text = "Delete Customer";
+            this.Botton_DeleteCust_MemInfo_PK.UseVisualStyleBackColor = false;
+            // 
+            // Botton_AddCust_MemInfo_PK
+            // 
+            this.Botton_AddCust_MemInfo_PK.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.Botton_AddCust_MemInfo_PK.Font = new System.Drawing.Font("Calibri Light", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Botton_AddCust_MemInfo_PK.Location = new System.Drawing.Point(1251, 58);
+            this.Botton_AddCust_MemInfo_PK.Name = "Botton_AddCust_MemInfo_PK";
+            this.Botton_AddCust_MemInfo_PK.Size = new System.Drawing.Size(339, 40);
+            this.Botton_AddCust_MemInfo_PK.TabIndex = 22;
+            this.Botton_AddCust_MemInfo_PK.Text = "Add Customer";
+            this.Botton_AddCust_MemInfo_PK.UseVisualStyleBackColor = false;
+            // 
+            // Text_SesID_Cancel_PK
+            // 
+            this.Text_SesID_Cancel_PK.AutoSize = true;
+            this.Text_SesID_Cancel_PK.Font = new System.Drawing.Font("Calibri Light", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Text_SesID_Cancel_PK.Location = new System.Drawing.Point(540, 674);
+            this.Text_SesID_Cancel_PK.Name = "Text_SesID_Cancel_PK";
+            this.Text_SesID_Cancel_PK.Size = new System.Drawing.Size(111, 24);
+            this.Text_SesID_Cancel_PK.TabIndex = 21;
+            this.Text_SesID_Cancel_PK.Text = "Session ID*: ";
+            // 
+            // Text_Pnr_Cancel_PK
+            // 
+            this.Text_Pnr_Cancel_PK.AutoSize = true;
+            this.Text_Pnr_Cancel_PK.Font = new System.Drawing.Font("Calibri Light", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Text_Pnr_Cancel_PK.Location = new System.Drawing.Point(7, 674);
+            this.Text_Pnr_Cancel_PK.Name = "Text_Pnr_Cancel_PK";
+            this.Text_Pnr_Cancel_PK.Size = new System.Drawing.Size(52, 24);
+            this.Text_Pnr_Cancel_PK.TabIndex = 20;
+            this.Text_Pnr_Cancel_PK.Text = "Pnr*:";
+            // 
+            // TextB_SesID_Cancel_PK
+            // 
+            this.TextB_SesID_Cancel_PK.Location = new System.Drawing.Point(749, 671);
+            this.TextB_SesID_Cancel_PK.Name = "TextB_SesID_Cancel_PK";
+            this.TextB_SesID_Cancel_PK.Size = new System.Drawing.Size(338, 32);
+            this.TextB_SesID_Cancel_PK.TabIndex = 19;
+            // 
+            // TextB_Pnr_Cancel_PK
+            // 
+            this.TextB_Pnr_Cancel_PK.Location = new System.Drawing.Point(121, 672);
+            this.TextB_Pnr_Cancel_PK.Name = "TextB_Pnr_Cancel_PK";
+            this.TextB_Pnr_Cancel_PK.Size = new System.Drawing.Size(338, 32);
+            this.TextB_Pnr_Cancel_PK.TabIndex = 18;
+            // 
+            // ListB_PreSes_MembInfo_PK
+            // 
+            this.ListB_PreSes_MembInfo_PK.FormattingEnabled = true;
+            this.ListB_PreSes_MembInfo_PK.ItemHeight = 24;
+            this.ListB_PreSes_MembInfo_PK.Location = new System.Drawing.Point(632, 328);
+            this.ListB_PreSes_MembInfo_PK.Name = "ListB_PreSes_MembInfo_PK";
+            this.ListB_PreSes_MembInfo_PK.Size = new System.Drawing.Size(455, 292);
+            this.ListB_PreSes_MembInfo_PK.TabIndex = 17;
+            // 
+            // ListB_UpSes_MembInfo_PK
+            // 
+            this.ListB_UpSes_MembInfo_PK.FormattingEnabled = true;
+            this.ListB_UpSes_MembInfo_PK.ItemHeight = 24;
+            this.ListB_UpSes_MembInfo_PK.Location = new System.Drawing.Point(11, 328);
+            this.ListB_UpSes_MembInfo_PK.Name = "ListB_UpSes_MembInfo_PK";
+            this.ListB_UpSes_MembInfo_PK.Size = new System.Drawing.Size(455, 292);
+            this.ListB_UpSes_MembInfo_PK.TabIndex = 16;
+            // 
+            // Text_PreSes_PK
+            // 
+            this.Text_PreSes_PK.AutoSize = true;
+            this.Text_PreSes_PK.Font = new System.Drawing.Font("Calibri Light", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Text_PreSes_PK.Location = new System.Drawing.Point(742, 265);
+            this.Text_PreSes_PK.Name = "Text_PreSes_PK";
+            this.Text_PreSes_PK.Size = new System.Drawing.Size(219, 35);
+            this.Text_PreSes_PK.TabIndex = 15;
+            this.Text_PreSes_PK.Text = "Previous sessions:";
+            // 
+            // Text_UpSes_PK
+            // 
+            this.Text_UpSes_PK.AutoSize = true;
+            this.Text_UpSes_PK.Font = new System.Drawing.Font("Calibri Light", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Text_UpSes_PK.Location = new System.Drawing.Point(114, 265);
+            this.Text_UpSes_PK.Name = "Text_UpSes_PK";
+            this.Text_UpSes_PK.Size = new System.Drawing.Size(240, 35);
+            this.Text_UpSes_PK.TabIndex = 14;
+            this.Text_UpSes_PK.Text = "Upcoming Sessions:";
+            // 
+            // TextB_Mail_MemInfo_PK
+            // 
+            this.TextB_Mail_MemInfo_PK.Location = new System.Drawing.Point(749, 116);
+            this.TextB_Mail_MemInfo_PK.Name = "TextB_Mail_MemInfo_PK";
+            this.TextB_Mail_MemInfo_PK.Size = new System.Drawing.Size(338, 32);
+            this.TextB_Mail_MemInfo_PK.TabIndex = 13;
+            // 
+            // TextB_Nbr_MemInfo_PK
+            // 
+            this.TextB_Nbr_MemInfo_PK.Location = new System.Drawing.Point(749, 64);
+            this.TextB_Nbr_MemInfo_PK.Name = "TextB_Nbr_MemInfo_PK";
+            this.TextB_Nbr_MemInfo_PK.Size = new System.Drawing.Size(338, 32);
+            this.TextB_Nbr_MemInfo_PK.TabIndex = 12;
+            // 
+            // TextB_Address_MemInfo_PK
+            // 
+            this.TextB_Address_MemInfo_PK.Location = new System.Drawing.Point(121, 176);
+            this.TextB_Address_MemInfo_PK.Name = "TextB_Address_MemInfo_PK";
+            this.TextB_Address_MemInfo_PK.Size = new System.Drawing.Size(338, 32);
+            this.TextB_Address_MemInfo_PK.TabIndex = 11;
+            // 
+            // TextB_Name_MemInfo_PK
+            // 
+            this.TextB_Name_MemInfo_PK.Location = new System.Drawing.Point(121, 116);
+            this.TextB_Name_MemInfo_PK.Name = "TextB_Name_MemInfo_PK";
+            this.TextB_Name_MemInfo_PK.Size = new System.Drawing.Size(338, 32);
+            this.TextB_Name_MemInfo_PK.TabIndex = 10;
+            // 
+            // TextB_Pnr_MemInfo_PK
+            // 
+            this.TextB_Pnr_MemInfo_PK.Location = new System.Drawing.Point(121, 62);
+            this.TextB_Pnr_MemInfo_PK.Name = "TextB_Pnr_MemInfo_PK";
+            this.TextB_Pnr_MemInfo_PK.Size = new System.Drawing.Size(338, 32);
+            this.TextB_Pnr_MemInfo_PK.TabIndex = 9;
+            // 
+            // Text_Mail_MemInfo_PK
+            // 
+            this.Text_Mail_MemInfo_PK.AutoSize = true;
+            this.Text_Mail_MemInfo_PK.Font = new System.Drawing.Font("Calibri Light", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Text_Mail_MemInfo_PK.Location = new System.Drawing.Point(540, 112);
+            this.Text_Mail_MemInfo_PK.Name = "Text_Mail_MemInfo_PK";
+            this.Text_Mail_MemInfo_PK.Size = new System.Drawing.Size(131, 24);
+            this.Text_Mail_MemInfo_PK.TabIndex = 6;
+            this.Text_Mail_MemInfo_PK.Text = "E-mail address:";
+            // 
+            // Text_nbr_MemInfo_Pk
+            // 
+            this.Text_nbr_MemInfo_Pk.AutoSize = true;
+            this.Text_nbr_MemInfo_Pk.Font = new System.Drawing.Font("Calibri Light", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Text_nbr_MemInfo_Pk.Location = new System.Drawing.Point(540, 64);
+            this.Text_nbr_MemInfo_Pk.Name = "Text_nbr_MemInfo_Pk";
+            this.Text_nbr_MemInfo_Pk.Size = new System.Drawing.Size(129, 24);
+            this.Text_nbr_MemInfo_Pk.TabIndex = 5;
+            this.Text_nbr_MemInfo_Pk.Text = "Telephone nbr:";
+            // 
+            // Text_Adress_MemInfo_PK
+            // 
+            this.Text_Adress_MemInfo_PK.AutoSize = true;
+            this.Text_Adress_MemInfo_PK.Font = new System.Drawing.Font("Calibri Light", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Text_Adress_MemInfo_PK.Location = new System.Drawing.Point(7, 176);
+            this.Text_Adress_MemInfo_PK.Name = "Text_Adress_MemInfo_PK";
+            this.Text_Adress_MemInfo_PK.Size = new System.Drawing.Size(79, 24);
+            this.Text_Adress_MemInfo_PK.TabIndex = 4;
+            this.Text_Adress_MemInfo_PK.Text = "Address:";
+            // 
+            // Text_Name_MemInfo_PK
+            // 
+            this.Text_Name_MemInfo_PK.AutoSize = true;
+            this.Text_Name_MemInfo_PK.Font = new System.Drawing.Font("Calibri Light", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Text_Name_MemInfo_PK.Location = new System.Drawing.Point(7, 116);
+            this.Text_Name_MemInfo_PK.Name = "Text_Name_MemInfo_PK";
+            this.Text_Name_MemInfo_PK.Size = new System.Drawing.Size(63, 24);
+            this.Text_Name_MemInfo_PK.TabIndex = 3;
+            this.Text_Name_MemInfo_PK.Text = "Name:";
+            // 
+            // Text_Pnr_MemInfo_PK
+            // 
+            this.Text_Pnr_MemInfo_PK.AutoSize = true;
+            this.Text_Pnr_MemInfo_PK.Font = new System.Drawing.Font("Calibri Light", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Text_Pnr_MemInfo_PK.Location = new System.Drawing.Point(7, 62);
+            this.Text_Pnr_MemInfo_PK.Name = "Text_Pnr_MemInfo_PK";
+            this.Text_Pnr_MemInfo_PK.Size = new System.Drawing.Size(52, 24);
+            this.Text_Pnr_MemInfo_PK.TabIndex = 2;
+            this.Text_Pnr_MemInfo_PK.Text = "Pnr*:";
+            // 
+            // Text_MemInfo_PK
+            // 
+            this.Text_MemInfo_PK.AutoSize = true;
+            this.Text_MemInfo_PK.Font = new System.Drawing.Font("Calibri Light", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Text_MemInfo_PK.Location = new System.Drawing.Point(0, 3);
+            this.Text_MemInfo_PK.Name = "Text_MemInfo_PK";
+            this.Text_MemInfo_PK.Size = new System.Drawing.Size(260, 35);
+            this.Text_MemInfo_PK.TabIndex = 1;
+            this.Text_MemInfo_PK.Text = "Member Information ";
+            // 
+            // TabText_Upp2
+            // 
+            this.TabText_Upp2.Controls.Add(this.tabControl3);
+            this.TabText_Upp2.Font = new System.Drawing.Font("Calibri Light", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TabText_Upp2.Location = new System.Drawing.Point(4, 33);
+            this.TabText_Upp2.Name = "TabText_Upp2";
+            this.TabText_Upp2.Padding = new System.Windows.Forms.Padding(3);
+            this.TabText_Upp2.Size = new System.Drawing.Size(1675, 802);
+            this.TabText_Upp2.TabIndex = 1;
+            this.TabText_Upp2.Text = "Uppgift 2 - Webservice";
+            this.TabText_Upp2.UseVisualStyleBackColor = true;
             // 
             // tabControl3
             // 
@@ -243,410 +616,38 @@
             this.TabText_Upp3.UseVisualStyleBackColor = true;
             this.TabText_Upp3.Click += new System.EventHandler(this.tabPage7_Click);
             // 
-            // Text_SesInfo_SesInfo
-            // 
-            this.Text_SesInfo_SesInfo.AutoSize = true;
-            this.Text_SesInfo_SesInfo.Font = new System.Drawing.Font("Calibri Light", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Text_SesInfo_SesInfo.Location = new System.Drawing.Point(7, 3);
-            this.Text_SesInfo_SesInfo.Name = "Text_SesInfo_SesInfo";
-            this.Text_SesInfo_SesInfo.Size = new System.Drawing.Size(246, 35);
-            this.Text_SesInfo_SesInfo.TabIndex = 0;
-            this.Text_SesInfo_SesInfo.Text = "Session Information ";
-            // 
-            // Text_MemInfo_PK
-            // 
-            this.Text_MemInfo_PK.AutoSize = true;
-            this.Text_MemInfo_PK.Font = new System.Drawing.Font("Calibri Light", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Text_MemInfo_PK.Location = new System.Drawing.Point(0, 3);
-            this.Text_MemInfo_PK.Name = "Text_MemInfo_PK";
-            this.Text_MemInfo_PK.Size = new System.Drawing.Size(260, 35);
-            this.Text_MemInfo_PK.TabIndex = 1;
-            this.Text_MemInfo_PK.Text = "Member Information ";
-            // 
-            // Text_SesID_SesID_PK
-            // 
-            this.Text_SesID_SesID_PK.AutoSize = true;
-            this.Text_SesID_SesID_PK.Font = new System.Drawing.Font("Calibri Light", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Text_SesID_SesID_PK.Location = new System.Drawing.Point(9, 63);
-            this.Text_SesID_SesID_PK.Name = "Text_SesID_SesID_PK";
-            this.Text_SesID_SesID_PK.Size = new System.Drawing.Size(111, 24);
-            this.Text_SesID_SesID_PK.TabIndex = 1;
-            this.Text_SesID_SesID_PK.Text = "Session ID*: ";
-            this.Text_SesID_SesID_PK.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // Text_Title_SesID_PK
-            // 
-            this.Text_Title_SesID_PK.AutoSize = true;
-            this.Text_Title_SesID_PK.Font = new System.Drawing.Font("Calibri Light", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Text_Title_SesID_PK.Location = new System.Drawing.Point(9, 112);
-            this.Text_Title_SesID_PK.Name = "Text_Title_SesID_PK";
-            this.Text_Title_SesID_PK.Size = new System.Drawing.Size(50, 24);
-            this.Text_Title_SesID_PK.TabIndex = 2;
-            this.Text_Title_SesID_PK.Text = "Title:";
-            // 
-            // Text_Loc_SesInfo_PK
-            // 
-            this.Text_Loc_SesInfo_PK.AutoSize = true;
-            this.Text_Loc_SesInfo_PK.Font = new System.Drawing.Font("Calibri Light", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Text_Loc_SesInfo_PK.Location = new System.Drawing.Point(9, 168);
-            this.Text_Loc_SesInfo_PK.Name = "Text_Loc_SesInfo_PK";
-            this.Text_Loc_SesInfo_PK.Size = new System.Drawing.Size(82, 24);
-            this.Text_Loc_SesInfo_PK.TabIndex = 3;
-            this.Text_Loc_SesInfo_PK.Text = "Location:";
-            // 
-            // Text_Time_SesInfo_PK
-            // 
-            this.Text_Time_SesInfo_PK.AutoSize = true;
-            this.Text_Time_SesInfo_PK.Font = new System.Drawing.Font("Calibri Light", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Text_Time_SesInfo_PK.Location = new System.Drawing.Point(334, 63);
-            this.Text_Time_SesInfo_PK.Name = "Text_Time_SesInfo_PK";
-            this.Text_Time_SesInfo_PK.Size = new System.Drawing.Size(55, 24);
-            this.Text_Time_SesInfo_PK.TabIndex = 4;
-            this.Text_Time_SesInfo_PK.Text = "Time:";
-            // 
-            // Text_Spots_SesInfo_PK
-            // 
-            this.Text_Spots_SesInfo_PK.AutoSize = true;
-            this.Text_Spots_SesInfo_PK.Font = new System.Drawing.Font("Calibri Light", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Text_Spots_SesInfo_PK.Location = new System.Drawing.Point(334, 112);
-            this.Text_Spots_SesInfo_PK.Name = "Text_Spots_SesInfo_PK";
-            this.Text_Spots_SesInfo_PK.Size = new System.Drawing.Size(59, 24);
-            this.Text_Spots_SesInfo_PK.TabIndex = 5;
-            this.Text_Spots_SesInfo_PK.Text = "Spots:";
-            // 
-            // Text_SesID_Book_PK
-            // 
-            this.Text_SesID_Book_PK.AutoSize = true;
-            this.Text_SesID_Book_PK.Font = new System.Drawing.Font("Calibri Light", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Text_SesID_Book_PK.Location = new System.Drawing.Point(1198, 275);
-            this.Text_SesID_Book_PK.Name = "Text_SesID_Book_PK";
-            this.Text_SesID_Book_PK.Size = new System.Drawing.Size(106, 24);
-            this.Text_SesID_Book_PK.TabIndex = 6;
-            this.Text_SesID_Book_PK.Text = "Session ID* ";
-            // 
-            // Text_Pnr_Book_Pk
-            // 
-            this.Text_Pnr_Book_Pk.AutoSize = true;
-            this.Text_Pnr_Book_Pk.Font = new System.Drawing.Font("Calibri Light", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Text_Pnr_Book_Pk.Location = new System.Drawing.Point(1434, 275);
-            this.Text_Pnr_Book_Pk.Name = "Text_Pnr_Book_Pk";
-            this.Text_Pnr_Book_Pk.Size = new System.Drawing.Size(52, 24);
-            this.Text_Pnr_Book_Pk.TabIndex = 7;
-            this.Text_Pnr_Book_Pk.Text = "Pnr*:";
-            // 
-            // TextB_SesID_SesInfo_PK
-            // 
-            this.TextB_SesID_SesInfo_PK.Location = new System.Drawing.Point(133, 63);
-            this.TextB_SesID_SesInfo_PK.Name = "TextB_SesID_SesInfo_PK";
-            this.TextB_SesID_SesInfo_PK.Size = new System.Drawing.Size(178, 32);
-            this.TextB_SesID_SesInfo_PK.TabIndex = 8;
-            // 
-            // TextB_Title_SesInfo_PK
-            // 
-            this.TextB_Title_SesInfo_PK.Location = new System.Drawing.Point(133, 112);
-            this.TextB_Title_SesInfo_PK.Name = "TextB_Title_SesInfo_PK";
-            this.TextB_Title_SesInfo_PK.Size = new System.Drawing.Size(178, 32);
-            this.TextB_Title_SesInfo_PK.TabIndex = 9;
-            // 
-            // TextB_Loc_SesInfo_PK
-            // 
-            this.TextB_Loc_SesInfo_PK.Location = new System.Drawing.Point(133, 168);
-            this.TextB_Loc_SesInfo_PK.Name = "TextB_Loc_SesInfo_PK";
-            this.TextB_Loc_SesInfo_PK.Size = new System.Drawing.Size(178, 32);
-            this.TextB_Loc_SesInfo_PK.TabIndex = 10;
-            // 
-            // TextB_Time_SesInfo_PK
-            // 
-            this.TextB_Time_SesInfo_PK.Location = new System.Drawing.Point(412, 63);
-            this.TextB_Time_SesInfo_PK.Name = "TextB_Time_SesInfo_PK";
-            this.TextB_Time_SesInfo_PK.Size = new System.Drawing.Size(178, 32);
-            this.TextB_Time_SesInfo_PK.TabIndex = 11;
-            // 
-            // TextB_Spots_SesInfo_PK
-            // 
-            this.TextB_Spots_SesInfo_PK.Location = new System.Drawing.Point(412, 112);
-            this.TextB_Spots_SesInfo_PK.Name = "TextB_Spots_SesInfo_PK";
-            this.TextB_Spots_SesInfo_PK.Size = new System.Drawing.Size(178, 32);
-            this.TextB_Spots_SesInfo_PK.TabIndex = 12;
-            // 
-            // ListB_SesInfo_PK
-            // 
-            this.ListB_SesInfo_PK.FormattingEnabled = true;
-            this.ListB_SesInfo_PK.ItemHeight = 24;
-            this.ListB_SesInfo_PK.Location = new System.Drawing.Point(616, 63);
-            this.ListB_SesInfo_PK.Name = "ListB_SesInfo_PK";
-            this.ListB_SesInfo_PK.Size = new System.Drawing.Size(504, 628);
-            this.ListB_SesInfo_PK.TabIndex = 13;
-            // 
-            // TextB_SesID_Book_PK
-            // 
-            this.TextB_SesID_Book_PK.Location = new System.Drawing.Point(1174, 319);
-            this.TextB_SesID_Book_PK.Name = "TextB_SesID_Book_PK";
-            this.TextB_SesID_Book_PK.Size = new System.Drawing.Size(178, 32);
-            this.TextB_SesID_Book_PK.TabIndex = 14;
-            // 
-            // TextB_Pnr_Book_PK
-            // 
-            this.TextB_Pnr_Book_PK.Location = new System.Drawing.Point(1384, 319);
-            this.TextB_Pnr_Book_PK.Name = "TextB_Pnr_Book_PK";
-            this.TextB_Pnr_Book_PK.Size = new System.Drawing.Size(178, 32);
-            this.TextB_Pnr_Book_PK.TabIndex = 15;
-            // 
-            // Botton_Add_SesInfo_PK
-            // 
-            this.Botton_Add_SesInfo_PK.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.Botton_Add_SesInfo_PK.Font = new System.Drawing.Font("Calibri Light", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Botton_Add_SesInfo_PK.Location = new System.Drawing.Point(13, 319);
-            this.Botton_Add_SesInfo_PK.Name = "Botton_Add_SesInfo_PK";
-            this.Botton_Add_SesInfo_PK.Size = new System.Drawing.Size(164, 49);
-            this.Botton_Add_SesInfo_PK.TabIndex = 16;
-            this.Botton_Add_SesInfo_PK.Text = "Add";
-            this.Botton_Add_SesInfo_PK.UseVisualStyleBackColor = false;
-            // 
-            // Botton_Search_SesInfo_PK
-            // 
-            this.Botton_Search_SesInfo_PK.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.Botton_Search_SesInfo_PK.Font = new System.Drawing.Font("Calibri Light", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Botton_Search_SesInfo_PK.Location = new System.Drawing.Point(427, 319);
-            this.Botton_Search_SesInfo_PK.Name = "Botton_Search_SesInfo_PK";
-            this.Botton_Search_SesInfo_PK.Size = new System.Drawing.Size(164, 49);
-            this.Botton_Search_SesInfo_PK.TabIndex = 17;
-            this.Botton_Search_SesInfo_PK.Text = "Search";
-            this.Botton_Search_SesInfo_PK.UseVisualStyleBackColor = false;
-            // 
-            // Botton_Delete_SesInfo_PK
-            // 
-            this.Botton_Delete_SesInfo_PK.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.Botton_Delete_SesInfo_PK.Font = new System.Drawing.Font("Calibri Light", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Botton_Delete_SesInfo_PK.Location = new System.Drawing.Point(220, 319);
-            this.Botton_Delete_SesInfo_PK.Name = "Botton_Delete_SesInfo_PK";
-            this.Botton_Delete_SesInfo_PK.Size = new System.Drawing.Size(164, 49);
-            this.Botton_Delete_SesInfo_PK.TabIndex = 18;
-            this.Botton_Delete_SesInfo_PK.Text = "Delete";
-            this.Botton_Delete_SesInfo_PK.UseVisualStyleBackColor = false;
-            // 
-            // Botton_ShowAll_SesInfo_PK
-            // 
-            this.Botton_ShowAll_SesInfo_PK.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.Botton_ShowAll_SesInfo_PK.Font = new System.Drawing.Font("Calibri Light", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Botton_ShowAll_SesInfo_PK.Location = new System.Drawing.Point(220, 423);
-            this.Botton_ShowAll_SesInfo_PK.Name = "Botton_ShowAll_SesInfo_PK";
-            this.Botton_ShowAll_SesInfo_PK.Size = new System.Drawing.Size(164, 49);
-            this.Botton_ShowAll_SesInfo_PK.TabIndex = 19;
-            this.Botton_ShowAll_SesInfo_PK.Text = "Show All ";
-            this.Botton_ShowAll_SesInfo_PK.UseVisualStyleBackColor = false;
-            // 
-            // Botton_Book_Book_PK
-            // 
-            this.Botton_Book_Book_PK.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.Botton_Book_Book_PK.Font = new System.Drawing.Font("Calibri Light", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Botton_Book_Book_PK.Location = new System.Drawing.Point(1291, 397);
-            this.Botton_Book_Book_PK.Name = "Botton_Book_Book_PK";
-            this.Botton_Book_Book_PK.Size = new System.Drawing.Size(164, 49);
-            this.Botton_Book_Book_PK.TabIndex = 20;
-            this.Botton_Book_Book_PK.Text = "Book";
-            this.Botton_Book_Book_PK.UseVisualStyleBackColor = false;
-            // 
-            // Text_Pnr_MemInfo_PK
-            // 
-            this.Text_Pnr_MemInfo_PK.AutoSize = true;
-            this.Text_Pnr_MemInfo_PK.Font = new System.Drawing.Font("Calibri Light", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Text_Pnr_MemInfo_PK.Location = new System.Drawing.Point(7, 62);
-            this.Text_Pnr_MemInfo_PK.Name = "Text_Pnr_MemInfo_PK";
-            this.Text_Pnr_MemInfo_PK.Size = new System.Drawing.Size(52, 24);
-            this.Text_Pnr_MemInfo_PK.TabIndex = 2;
-            this.Text_Pnr_MemInfo_PK.Text = "Pnr*:";
-            // 
-            // Text_Name_MemInfo_PK
-            // 
-            this.Text_Name_MemInfo_PK.AutoSize = true;
-            this.Text_Name_MemInfo_PK.Font = new System.Drawing.Font("Calibri Light", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Text_Name_MemInfo_PK.Location = new System.Drawing.Point(7, 116);
-            this.Text_Name_MemInfo_PK.Name = "Text_Name_MemInfo_PK";
-            this.Text_Name_MemInfo_PK.Size = new System.Drawing.Size(63, 24);
-            this.Text_Name_MemInfo_PK.TabIndex = 3;
-            this.Text_Name_MemInfo_PK.Text = "Name:";
-            // 
-            // Text_Adress_MemInfo_PK
-            // 
-            this.Text_Adress_MemInfo_PK.AutoSize = true;
-            this.Text_Adress_MemInfo_PK.Font = new System.Drawing.Font("Calibri Light", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Text_Adress_MemInfo_PK.Location = new System.Drawing.Point(7, 176);
-            this.Text_Adress_MemInfo_PK.Name = "Text_Adress_MemInfo_PK";
-            this.Text_Adress_MemInfo_PK.Size = new System.Drawing.Size(79, 24);
-            this.Text_Adress_MemInfo_PK.TabIndex = 4;
-            this.Text_Adress_MemInfo_PK.Text = "Address:";
-            // 
-            // Text_nbr_MemInfo_Pk
-            // 
-            this.Text_nbr_MemInfo_Pk.AutoSize = true;
-            this.Text_nbr_MemInfo_Pk.Font = new System.Drawing.Font("Calibri Light", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Text_nbr_MemInfo_Pk.Location = new System.Drawing.Point(540, 64);
-            this.Text_nbr_MemInfo_Pk.Name = "Text_nbr_MemInfo_Pk";
-            this.Text_nbr_MemInfo_Pk.Size = new System.Drawing.Size(129, 24);
-            this.Text_nbr_MemInfo_Pk.TabIndex = 5;
-            this.Text_nbr_MemInfo_Pk.Text = "Telephone nbr:";
-            // 
-            // Text_Mail_MemInfo_PK
-            // 
-            this.Text_Mail_MemInfo_PK.AutoSize = true;
-            this.Text_Mail_MemInfo_PK.Font = new System.Drawing.Font("Calibri Light", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Text_Mail_MemInfo_PK.Location = new System.Drawing.Point(540, 112);
-            this.Text_Mail_MemInfo_PK.Name = "Text_Mail_MemInfo_PK";
-            this.Text_Mail_MemInfo_PK.Size = new System.Drawing.Size(131, 24);
-            this.Text_Mail_MemInfo_PK.TabIndex = 6;
-            this.Text_Mail_MemInfo_PK.Text = "E-mail address:";
-            // 
-            // TextB_Pnr_MemInfo_PK
-            // 
-            this.TextB_Pnr_MemInfo_PK.Location = new System.Drawing.Point(121, 62);
-            this.TextB_Pnr_MemInfo_PK.Name = "TextB_Pnr_MemInfo_PK";
-            this.TextB_Pnr_MemInfo_PK.Size = new System.Drawing.Size(338, 32);
-            this.TextB_Pnr_MemInfo_PK.TabIndex = 9;
-            // 
-            // TextB_Name_MemInfo_PK
-            // 
-            this.TextB_Name_MemInfo_PK.Location = new System.Drawing.Point(121, 116);
-            this.TextB_Name_MemInfo_PK.Name = "TextB_Name_MemInfo_PK";
-            this.TextB_Name_MemInfo_PK.Size = new System.Drawing.Size(338, 32);
-            this.TextB_Name_MemInfo_PK.TabIndex = 10;
-            // 
-            // TextB_Address_MemInfo_PK
-            // 
-            this.TextB_Address_MemInfo_PK.Location = new System.Drawing.Point(121, 176);
-            this.TextB_Address_MemInfo_PK.Name = "TextB_Address_MemInfo_PK";
-            this.TextB_Address_MemInfo_PK.Size = new System.Drawing.Size(338, 32);
-            this.TextB_Address_MemInfo_PK.TabIndex = 11;
-            // 
-            // TextB_Nbr_MemInfo_PK
-            // 
-            this.TextB_Nbr_MemInfo_PK.Location = new System.Drawing.Point(749, 64);
-            this.TextB_Nbr_MemInfo_PK.Name = "TextB_Nbr_MemInfo_PK";
-            this.TextB_Nbr_MemInfo_PK.Size = new System.Drawing.Size(338, 32);
-            this.TextB_Nbr_MemInfo_PK.TabIndex = 12;
-            // 
-            // TextB_Mail_MemInfo_PK
-            // 
-            this.TextB_Mail_MemInfo_PK.Location = new System.Drawing.Point(749, 116);
-            this.TextB_Mail_MemInfo_PK.Name = "TextB_Mail_MemInfo_PK";
-            this.TextB_Mail_MemInfo_PK.Size = new System.Drawing.Size(338, 32);
-            this.TextB_Mail_MemInfo_PK.TabIndex = 13;
-            // 
-            // Text_UpSes_PK
-            // 
-            this.Text_UpSes_PK.AutoSize = true;
-            this.Text_UpSes_PK.Font = new System.Drawing.Font("Calibri Light", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Text_UpSes_PK.Location = new System.Drawing.Point(114, 265);
-            this.Text_UpSes_PK.Name = "Text_UpSes_PK";
-            this.Text_UpSes_PK.Size = new System.Drawing.Size(240, 35);
-            this.Text_UpSes_PK.TabIndex = 14;
-            this.Text_UpSes_PK.Text = "Upcoming Sessions:";
-            // 
-            // Text_PreSes_PK
-            // 
-            this.Text_PreSes_PK.AutoSize = true;
-            this.Text_PreSes_PK.Font = new System.Drawing.Font("Calibri Light", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Text_PreSes_PK.Location = new System.Drawing.Point(742, 265);
-            this.Text_PreSes_PK.Name = "Text_PreSes_PK";
-            this.Text_PreSes_PK.Size = new System.Drawing.Size(219, 35);
-            this.Text_PreSes_PK.TabIndex = 15;
-            this.Text_PreSes_PK.Text = "Previous sessions:";
-            // 
-            // ListB_UpSes_MembInfo_PK
-            // 
-            this.ListB_UpSes_MembInfo_PK.FormattingEnabled = true;
-            this.ListB_UpSes_MembInfo_PK.ItemHeight = 24;
-            this.ListB_UpSes_MembInfo_PK.Location = new System.Drawing.Point(11, 328);
-            this.ListB_UpSes_MembInfo_PK.Name = "ListB_UpSes_MembInfo_PK";
-            this.ListB_UpSes_MembInfo_PK.Size = new System.Drawing.Size(455, 292);
-            this.ListB_UpSes_MembInfo_PK.TabIndex = 16;
-            // 
-            // ListB_PreSes_MembInfo_PK
-            // 
-            this.ListB_PreSes_MembInfo_PK.FormattingEnabled = true;
-            this.ListB_PreSes_MembInfo_PK.ItemHeight = 24;
-            this.ListB_PreSes_MembInfo_PK.Location = new System.Drawing.Point(632, 328);
-            this.ListB_PreSes_MembInfo_PK.Name = "ListB_PreSes_MembInfo_PK";
-            this.ListB_PreSes_MembInfo_PK.Size = new System.Drawing.Size(455, 292);
-            this.ListB_PreSes_MembInfo_PK.TabIndex = 17;
-            // 
-            // TextB_Pnr_Cancel_PK
-            // 
-            this.TextB_Pnr_Cancel_PK.Location = new System.Drawing.Point(121, 672);
-            this.TextB_Pnr_Cancel_PK.Name = "TextB_Pnr_Cancel_PK";
-            this.TextB_Pnr_Cancel_PK.Size = new System.Drawing.Size(338, 32);
-            this.TextB_Pnr_Cancel_PK.TabIndex = 18;
-            // 
-            // TextB_SesID_Cancel_PK
-            // 
-            this.TextB_SesID_Cancel_PK.Location = new System.Drawing.Point(749, 671);
-            this.TextB_SesID_Cancel_PK.Name = "TextB_SesID_Cancel_PK";
-            this.TextB_SesID_Cancel_PK.Size = new System.Drawing.Size(338, 32);
-            this.TextB_SesID_Cancel_PK.TabIndex = 19;
-            // 
-            // Text_Pnr_Cancel_PK
-            // 
-            this.Text_Pnr_Cancel_PK.AutoSize = true;
-            this.Text_Pnr_Cancel_PK.Font = new System.Drawing.Font("Calibri Light", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Text_Pnr_Cancel_PK.Location = new System.Drawing.Point(7, 674);
-            this.Text_Pnr_Cancel_PK.Name = "Text_Pnr_Cancel_PK";
-            this.Text_Pnr_Cancel_PK.Size = new System.Drawing.Size(52, 24);
-            this.Text_Pnr_Cancel_PK.TabIndex = 20;
-            this.Text_Pnr_Cancel_PK.Text = "Pnr*:";
-            // 
-            // Text_SesID_Cancel_PK
-            // 
-            this.Text_SesID_Cancel_PK.AutoSize = true;
-            this.Text_SesID_Cancel_PK.Font = new System.Drawing.Font("Calibri Light", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Text_SesID_Cancel_PK.Location = new System.Drawing.Point(540, 674);
-            this.Text_SesID_Cancel_PK.Name = "Text_SesID_Cancel_PK";
-            this.Text_SesID_Cancel_PK.Size = new System.Drawing.Size(111, 24);
-            this.Text_SesID_Cancel_PK.TabIndex = 21;
-            this.Text_SesID_Cancel_PK.Text = "Session ID*: ";
-            // 
-            // Botton_AddCust_MemInfo_PK
-            // 
-            this.Botton_AddCust_MemInfo_PK.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.Botton_AddCust_MemInfo_PK.Font = new System.Drawing.Font("Calibri Light", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Botton_AddCust_MemInfo_PK.Location = new System.Drawing.Point(1251, 58);
-            this.Botton_AddCust_MemInfo_PK.Name = "Botton_AddCust_MemInfo_PK";
-            this.Botton_AddCust_MemInfo_PK.Size = new System.Drawing.Size(339, 40);
-            this.Botton_AddCust_MemInfo_PK.TabIndex = 22;
-            this.Botton_AddCust_MemInfo_PK.Text = "Add Customer";
-            this.Botton_AddCust_MemInfo_PK.UseVisualStyleBackColor = false;
-            // 
-            // Botton_DeleteCust_MemInfo_PK
-            // 
-            this.Botton_DeleteCust_MemInfo_PK.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.Botton_DeleteCust_MemInfo_PK.Font = new System.Drawing.Font("Calibri Light", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Botton_DeleteCust_MemInfo_PK.Location = new System.Drawing.Point(1251, 112);
-            this.Botton_DeleteCust_MemInfo_PK.Name = "Botton_DeleteCust_MemInfo_PK";
-            this.Botton_DeleteCust_MemInfo_PK.Size = new System.Drawing.Size(339, 40);
-            this.Botton_DeleteCust_MemInfo_PK.TabIndex = 23;
-            this.Botton_DeleteCust_MemInfo_PK.Text = "Delete Customer";
-            this.Botton_DeleteCust_MemInfo_PK.UseVisualStyleBackColor = false;
-            // 
-            // Botton_SearchCust_MembInfo_PK
-            // 
-            this.Botton_SearchCust_MembInfo_PK.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.Botton_SearchCust_MembInfo_PK.Font = new System.Drawing.Font("Calibri Light", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Botton_SearchCust_MembInfo_PK.Location = new System.Drawing.Point(1251, 168);
-            this.Botton_SearchCust_MembInfo_PK.Name = "Botton_SearchCust_MembInfo_PK";
-            this.Botton_SearchCust_MembInfo_PK.Size = new System.Drawing.Size(339, 40);
-            this.Botton_SearchCust_MembInfo_PK.TabIndex = 24;
-            this.Botton_SearchCust_MembInfo_PK.Text = "Search Customer";
-            this.Botton_SearchCust_MembInfo_PK.UseVisualStyleBackColor = false;
-            // 
-            // Botton_CancelRes_MembInfo_PK
-            // 
-            this.Botton_CancelRes_MembInfo_PK.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.Botton_CancelRes_MembInfo_PK.Font = new System.Drawing.Font("Calibri Light", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Botton_CancelRes_MembInfo_PK.Location = new System.Drawing.Point(1251, 651);
-            this.Botton_CancelRes_MembInfo_PK.Name = "Botton_CancelRes_MembInfo_PK";
-            this.Botton_CancelRes_MembInfo_PK.Size = new System.Drawing.Size(339, 40);
-            this.Botton_CancelRes_MembInfo_PK.TabIndex = 25;
-            this.Botton_CancelRes_MembInfo_PK.Text = "Cancel Reservation";
-            this.Botton_CancelRes_MembInfo_PK.UseVisualStyleBackColor = false;
+            // CBox_Title_PK
+            // 
+            this.CBox_Title_PK.FormattingEnabled = true;
+            this.CBox_Title_PK.Items.AddRange(new object[] {
+            "Bodypump",
+            "Spinning "});
+            this.CBox_Title_PK.Location = new System.Drawing.Point(133, 112);
+            this.CBox_Title_PK.Name = "CBox_Title_PK";
+            this.CBox_Title_PK.Size = new System.Drawing.Size(232, 32);
+            this.CBox_Title_PK.TabIndex = 21;
+            this.CBox_Title_PK.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.CustomFormat = "yyyy - MM - dd, HH:mm";
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePicker1.Location = new System.Drawing.Point(467, 60);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(232, 32);
+            this.dateTimePicker1.TabIndex = 23;
+            this.dateTimePicker1.Value = new System.DateTime(2018, 2, 16, 11, 18, 45, 0);
+            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
+            // 
+            // Text_BookSes_PK
+            // 
+            this.Text_BookSes_PK.AutoSize = true;
+            this.Text_BookSes_PK.Font = new System.Drawing.Font("Calibri Light", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Text_BookSes_PK.Location = new System.Drawing.Point(7, 414);
+            this.Text_BookSes_PK.Name = "Text_BookSes_PK";
+            this.Text_BookSes_PK.Size = new System.Drawing.Size(163, 35);
+            this.Text_BookSes_PK.TabIndex = 24;
+            this.Text_BookSes_PK.Text = "Book Session";
             // 
             // Application
             // 
@@ -659,12 +660,12 @@
             this.Text = "SYSA14 - Application";
             this.TabText_PK.ResumeLayout(false);
             this.TabText_Upp1.ResumeLayout(false);
-            this.TabText_Upp2.ResumeLayout(false);
             this.TebText_SesInfo_PK.ResumeLayout(false);
             this.TabText_SessionInformation.ResumeLayout(false);
             this.TabText_SessionInformation.PerformLayout();
             this.TabText_MemberInformation.ResumeLayout(false);
             this.TabText_MemberInformation.PerformLayout();
+            this.TabText_Upp2.ResumeLayout(false);
             this.tabControl3.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -691,15 +692,11 @@
         private System.Windows.Forms.TextBox TextB_SesID_Book_PK;
         private System.Windows.Forms.ListBox ListB_SesInfo_PK;
         private System.Windows.Forms.TextBox TextB_Spots_SesInfo_PK;
-        private System.Windows.Forms.TextBox TextB_Time_SesInfo_PK;
-        private System.Windows.Forms.TextBox TextB_Loc_SesInfo_PK;
-        private System.Windows.Forms.TextBox TextB_Title_SesInfo_PK;
         private System.Windows.Forms.TextBox TextB_SesID_SesInfo_PK;
         private System.Windows.Forms.Label Text_Pnr_Book_Pk;
         private System.Windows.Forms.Label Text_SesID_Book_PK;
         private System.Windows.Forms.Label Text_Spots_SesInfo_PK;
         private System.Windows.Forms.Label Text_Time_SesInfo_PK;
-        private System.Windows.Forms.Label Text_Loc_SesInfo_PK;
         private System.Windows.Forms.Label Text_Title_SesID_PK;
         private System.Windows.Forms.Button Botton_Book_Book_PK;
         private System.Windows.Forms.Button Botton_ShowAll_SesInfo_PK;
@@ -726,5 +723,8 @@
         private System.Windows.Forms.TextBox TextB_Pnr_Cancel_PK;
         private System.Windows.Forms.ListBox ListB_PreSes_MembInfo_PK;
         private System.Windows.Forms.ListBox ListB_UpSes_MembInfo_PK;
+        private System.Windows.Forms.ComboBox CBox_Title_PK;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.Label Text_BookSes_PK;
     }
 }

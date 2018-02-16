@@ -14,17 +14,12 @@ namespace Hatoca_inlamning.DAL
 
         public String GetCustomerToTable()
         {
-            return "SELECT cpnr AS 'Customer pnr' UPPER (cname) AS 'Name', " + "UPPER(caddress) AS 'Address' FROM Customer WHERE cpnr = ?";
+            return "SELECT cpnr AS 'Customer pnr' UPPER (cname) AS 'Name', " + "UPPER (caddress) AS 'Address' FROM Customer WHERE cpnr = ?";
         }
 
         public String GetGymsession()
         {
             return "SELECT * FROM Gymsession WHERE gid = ?";
-        }
-
-        public String GetInstructor()
-        {
-            return "SELECT * FROM Instructor WHERE iid = ?";
         }
 
         public String AddCustomer()
