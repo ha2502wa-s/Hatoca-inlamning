@@ -6,17 +6,25 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace Hatoca_inlamning
 {
     public partial class Application : Form
     {
-        public Application()
+
+		[STAThread]
+		public static void Main()
+		{
+		}
+
+	
+
+		public Application()
         {
             InitializeComponent();
         }
-
-        private void label1_Click(object sender, EventArgs e)
+			private void label1_Click(object sender, EventArgs e)
         {
 
         }
@@ -60,7 +68,15 @@ namespace Hatoca_inlamning
 
         private void Botton_Add_SesInfo_PK_Click(object sender, EventArgs e)
         {
-
+			SqlConnection cs = new SqlConnection("Data Source=LAPTOP-SCJU4H3Q; Initial Catalog=hatoca-inlamning; Integrated Security: TRUE");
+			cs.Open();
+			MessageBox.Show(cs.State.ToString());
+			cs.Close();
         }
-    }
+
+		private void Application_Load(object sender, EventArgs e)
+		{
+
+		}
+	}
 }
