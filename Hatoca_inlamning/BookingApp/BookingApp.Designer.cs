@@ -527,9 +527,10 @@
 			this.label18.Font = new System.Drawing.Font("Calibri Light", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label18.Location = new System.Drawing.Point(409, 244);
 			this.label18.Name = "label18";
-			this.label18.Size = new System.Drawing.Size(240, 35);
+			this.label18.Size = new System.Drawing.Size(221, 35);
 			this.label18.TabIndex = 13;
-			this.label18.Text = "Upcoming Sessions:";
+			this.label18.Text = "Previous Sessions:";
+			this.label18.Click += new System.EventHandler(this.label18_Click);
 			// 
 			// listBox2
 			// 
