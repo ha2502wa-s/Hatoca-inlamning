@@ -575,6 +575,7 @@
 			this.ListB_PreSes_MembInfo_PK.Name = "ListB_PreSes_MembInfo_PK";
 			this.ListB_PreSes_MembInfo_PK.Size = new System.Drawing.Size(455, 292);
 			this.ListB_PreSes_MembInfo_PK.TabIndex = 17;
+			this.ListB_PreSes_MembInfo_PK.SelectedIndexChanged += new System.EventHandler(this.ListB_PreSes_MembInfo_PK_SelectedIndexChanged);
 			// 
 			// ListB_UpSes_MembInfo_PK
 			// 
