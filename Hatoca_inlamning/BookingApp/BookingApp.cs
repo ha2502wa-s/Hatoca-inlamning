@@ -6,6 +6,8 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Data.SqlClient;
+using System.Data;
 
 namespace BookingApp
 {
@@ -82,6 +84,21 @@ namespace BookingApp
 		}
 
 		private void label18_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void button7_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void button1_Click(object sender, EventArgs e)
+		{
+			string hej = "Lägg in add session metoden här";
+		}
+
+		private void tabPage4_Click(object sender, EventArgs e)
 		{
 
 		}
