@@ -48,6 +48,9 @@
     <Compile Include="BookingApp.Designer.cs">
       <DependentUpon>BookingApp.cs</DependentUpon>
     </Compile>
+    <Compile Include="PK\Controller\Controller.cs" />
+    <Compile Include="PK\DAL\DataAccessLayer.cs" />
+    <Compile Include="PK\DAL\Queries.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="BookingApp.resx">

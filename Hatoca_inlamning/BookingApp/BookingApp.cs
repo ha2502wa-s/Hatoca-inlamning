@@ -102,5 +102,12 @@ namespace BookingApp
 		{
 
 		}
+
+		private void Botton_Add_SesInfo_Click(object sender, EventArgs e)
+		{
+			//Hatoca_inlamning.BookingContext bc = new Hatoca_inlamning.BookingContext();
+			//Gymsession gymsess = new Gymsession();
+
+		}
 	}
 }
