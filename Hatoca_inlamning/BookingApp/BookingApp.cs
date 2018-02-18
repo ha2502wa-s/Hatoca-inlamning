@@ -114,5 +114,25 @@ namespace BookingApp
         {
 
         }
+
+        private void TextB_Pnr_MemInfo_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Botton_Add_MemInfo_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Botton_Delete_MemInfo_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Botton_Search_MemInfo_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

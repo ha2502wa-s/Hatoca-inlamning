@@ -410,6 +410,7 @@
             this.Botton_Search_MemInfo.TabIndex = 23;
             this.Botton_Search_MemInfo.Text = "Search Customer";
             this.Botton_Search_MemInfo.UseVisualStyleBackColor = false;
+            this.Botton_Search_MemInfo.Click += new System.EventHandler(this.Botton_Search_MemInfo_Click);
             // 
             // Botton_Delete_MemInfo
             // 
@@ -421,6 +422,7 @@
             this.Botton_Delete_MemInfo.TabIndex = 22;
             this.Botton_Delete_MemInfo.Text = "Delete Customer";
             this.Botton_Delete_MemInfo.UseVisualStyleBackColor = false;
+            this.Botton_Delete_MemInfo.Click += new System.EventHandler(this.Botton_Delete_MemInfo_Click);
             // 
             // Botton_Add_MemInfo
             // 
@@ -432,6 +434,7 @@
             this.Botton_Add_MemInfo.TabIndex = 21;
             this.Botton_Add_MemInfo.Text = "Add Customer";
             this.Botton_Add_MemInfo.UseVisualStyleBackColor = false;
+            this.Botton_Add_MemInfo.Click += new System.EventHandler(this.Botton_Add_MemInfo_Click);
             // 
             // Botton_CancelRes_MemInfo
             // 
@@ -561,6 +564,7 @@
             this.TextB_Pnr_MemInfo.Name = "TextB_Pnr_MemInfo";
             this.TextB_Pnr_MemInfo.Size = new System.Drawing.Size(207, 26);
             this.TextB_Pnr_MemInfo.TabIndex = 6;
+            this.TextB_Pnr_MemInfo.TextChanged += new System.EventHandler(this.TextB_Pnr_MemInfo_TextChanged);
             // 
             // Text_Mail_MemInfo
             // 
