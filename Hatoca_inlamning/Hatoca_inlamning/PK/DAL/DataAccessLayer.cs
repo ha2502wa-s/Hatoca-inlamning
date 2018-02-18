@@ -7,6 +7,6 @@ namespace Hatoca_inlamning
 {
 	class DataAccessLayer
 	{
-		public string hej = "hej";
+		
 	}
 }
