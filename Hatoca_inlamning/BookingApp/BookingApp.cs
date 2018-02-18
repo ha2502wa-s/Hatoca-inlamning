@@ -109,5 +109,10 @@ namespace BookingApp
 			//Gymsession gymsess = new Gymsession();
 
 		}
-	}
+
+        private void Text_SesID_SesInfo_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
 }
