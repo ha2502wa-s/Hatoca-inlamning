@@ -1,10 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2027
+VisualStudioVersion = 15.0.27130.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hatoca_inlamning", "Hatoca_inlamning\Hatoca_inlamning.csproj", "{EA096CE7-B132-495B-98AF-85D14767F149}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingApp", "BookingApp\BookingApp.csproj", "{0FFC3C5F-D5BC-40CC-8F9B-A6409E19532E}"
 EndProject
 Global
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EA096CE7-B132-495B-98AF-85D14767F149}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EA096CE7-B132-495B-98AF-85D14767F149}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EA096CE7-B132-495B-98AF-85D14767F149}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EA096CE7-B132-495B-98AF-85D14767F149}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0FFC3C5F-D5BC-40CC-8F9B-A6409E19532E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0FFC3C5F-D5BC-40CC-8F9B-A6409E19532E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FFC3C5F-D5BC-40CC-8F9B-A6409E19532E}.Release|Any CPU.ActiveCfg = Release|Any CPU
