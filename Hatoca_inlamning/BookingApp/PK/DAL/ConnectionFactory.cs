@@ -10,23 +10,35 @@ namespace BookingApp.PK.DAL
 {
    public class ConnectionFactory
     {
-        private static readonly string URL = "Data Source=LAPTOP-SCJU4H3Q;Initial Catalog=hatoca-inlamning;Integrated Security= SSPI;User ID=hatoca;Password=hatoca123;";
+        string connectionString = "Data Source=LAPTOP-SCJU4H3Q;Initial Catalog=hatoca-inlamning;Integrated Security= SSPI;User ID=hatoca;Password=hatoca123;";
+		SqlConnection conn;
 
-        public static SqlConnection GetConnection()
+        public void OpenConnection()
         { try
-            { SqlConnection conn = new SqlConnection(URL);
-                conn.Open();
-                return conn;
-            }
-            catch (SqlException sqle)
             {
-                MessageBox.Show("Kunde inte ansulta till \"" + URL + "\" , verifiera att databsen är startad.");
+				conn = new SqlConnection(connectionString);
+				conn.Open();
+            }
+            catch (SqlException)
+            {
+                MessageBox.Show("Kunde inte ansulta till \"" + connectionString + "\" , verifiera att databsen är startad.");
             }
             catch (Exception e)
             {
                 MessageBox.Show(e.StackTrace);
             }
-            return null;
         }
-    }
+
+		public void CloseConnection()
+		{
+			conn.Close();
+		}
+
+		/*public void ExecuteQueries(string Query) // Tror inte vi behöver denna faktiskt
+		{
+			SqlCommand cmd = new SqlCommand(Query, conn);
+			cmd.ExecuteNonQuery();
+		}*/
+
+	}
 }
