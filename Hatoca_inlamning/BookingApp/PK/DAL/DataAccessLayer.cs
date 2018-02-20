@@ -11,7 +11,9 @@ namespace BookingApp.PK.DAL
 
     class DataAccessLayer
     {
-        /* public void AddGymsession(Gymsession gymsession) throws SQLException 
+
+		/*
+        public void AddGymsession(Gymsession gymsession) throws SQLException 
          {
              String sql = "INSERT INTO Gymsession VALUES (?,?,?,?,?)";
 
@@ -28,7 +30,7 @@ namespace BookingApp.PK.DAL
              }
 
          }
-
+ 
          public void AddCustomer(Customer customer) throws SQLException
          {
              String sql = "INSERT INTO Customer VALUES (?,?,?,?,?)";
@@ -156,5 +158,5 @@ namespace BookingApp.PK.DAL
 }
    } */
 
-    }
+	}
 }
