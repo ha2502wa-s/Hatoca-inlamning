@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Hatoca_inlamning.DAL
+namespace BookingApp.PK.DAL
 {
     class Queries
     {

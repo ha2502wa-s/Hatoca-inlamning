@@ -81,6 +81,8 @@
             this.Text_MemInfo_MemInfo = new System.Windows.Forms.Label();
             this.Tab_Uppgift2_Webbservice = new System.Windows.Forms.TabPage();
             this.Tab_Uppgift3_ERP = new System.Windows.Forms.TabPage();
+            this.Text_Instructor_SesInfo = new System.Windows.Forms.Label();
+            this.TextB_Instructor_SesInfo = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
             this.Tab_Uppgift1_PK.SuspendLayout();
             this.tabControl2.SuspendLayout();
@@ -109,7 +111,6 @@
             this.Tab_Uppgift1_PK.TabIndex = 0;
             this.Tab_Uppgift1_PK.Text = "PK";
             this.Tab_Uppgift1_PK.UseVisualStyleBackColor = true;
-            this.Tab_Uppgift1_PK.Click += new System.EventHandler(this.tabPage1_Click);
             // 
             // tabControl2
             // 
@@ -123,6 +124,8 @@
             // 
             // Tab_SesInfo_PK
             // 
+            this.Tab_SesInfo_PK.Controls.Add(this.TextB_Instructor_SesInfo);
+            this.Tab_SesInfo_PK.Controls.Add(this.Text_Instructor_SesInfo);
             this.Tab_SesInfo_PK.Controls.Add(this.ListB_SesInfo);
             this.Tab_SesInfo_PK.Controls.Add(this.Text_Error_SesInfo);
             this.Tab_SesInfo_PK.Controls.Add(this.Botton_Book_SesInfo);
@@ -231,7 +234,7 @@
             // 
             this.Botton_ShowAll_SesInfo.BackColor = System.Drawing.Color.LightSteelBlue;
             this.Botton_ShowAll_SesInfo.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Botton_ShowAll_SesInfo.Location = new System.Drawing.Point(256, 278);
+            this.Botton_ShowAll_SesInfo.Location = new System.Drawing.Point(256, 305);
             this.Botton_ShowAll_SesInfo.Name = "Botton_ShowAll_SesInfo";
             this.Botton_ShowAll_SesInfo.Size = new System.Drawing.Size(180, 47);
             this.Botton_ShowAll_SesInfo.TabIndex = 13;
@@ -242,7 +245,7 @@
             // 
             this.Botton_Search_SesInfo.BackColor = System.Drawing.Color.LightSteelBlue;
             this.Botton_Search_SesInfo.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Botton_Search_SesInfo.Location = new System.Drawing.Point(454, 205);
+            this.Botton_Search_SesInfo.Location = new System.Drawing.Point(453, 233);
             this.Botton_Search_SesInfo.Name = "Botton_Search_SesInfo";
             this.Botton_Search_SesInfo.Size = new System.Drawing.Size(180, 47);
             this.Botton_Search_SesInfo.TabIndex = 12;
@@ -253,7 +256,7 @@
             // 
             this.Botton_Delete_SesInfo.BackColor = System.Drawing.Color.LightSteelBlue;
             this.Botton_Delete_SesInfo.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Botton_Delete_SesInfo.Location = new System.Drawing.Point(256, 205);
+            this.Botton_Delete_SesInfo.Location = new System.Drawing.Point(256, 233);
             this.Botton_Delete_SesInfo.Name = "Botton_Delete_SesInfo";
             this.Botton_Delete_SesInfo.Size = new System.Drawing.Size(180, 47);
             this.Botton_Delete_SesInfo.TabIndex = 11;
@@ -264,7 +267,7 @@
             // 
             this.Botton_Add_SesInfo.BackColor = System.Drawing.Color.LightSteelBlue;
             this.Botton_Add_SesInfo.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Botton_Add_SesInfo.Location = new System.Drawing.Point(55, 205);
+            this.Botton_Add_SesInfo.Location = new System.Drawing.Point(53, 233);
             this.Botton_Add_SesInfo.Name = "Botton_Add_SesInfo";
             this.Botton_Add_SesInfo.Size = new System.Drawing.Size(180, 47);
             this.Botton_Add_SesInfo.TabIndex = 10;
@@ -351,7 +354,6 @@
             this.Text_SesID_SesInfo.Size = new System.Drawing.Size(118, 27);
             this.Text_SesID_SesInfo.TabIndex = 1;
             this.Text_SesID_SesInfo.Text = "Session ID*:";
-            this.Text_SesID_SesInfo.Click += new System.EventHandler(this.Text_SesID_SesInfo_Click);
             // 
             // Tab_MemInfo_PK
             // 
@@ -387,7 +389,6 @@
             this.Tab_MemInfo_PK.TabIndex = 1;
             this.Tab_MemInfo_PK.Text = "Member Information";
             this.Tab_MemInfo_PK.UseVisualStyleBackColor = true;
-            this.Tab_MemInfo_PK.Click += new System.EventHandler(this.tabPage5_Click);
             // 
             // Text_Error_MemInfo
             // 
@@ -410,7 +411,6 @@
             this.Botton_Search_MemInfo.TabIndex = 23;
             this.Botton_Search_MemInfo.Text = "Search Customer";
             this.Botton_Search_MemInfo.UseVisualStyleBackColor = false;
-            this.Botton_Search_MemInfo.Click += new System.EventHandler(this.Botton_Search_MemInfo_Click);
             // 
             // Botton_Delete_MemInfo
             // 
@@ -422,7 +422,6 @@
             this.Botton_Delete_MemInfo.TabIndex = 22;
             this.Botton_Delete_MemInfo.Text = "Delete Customer";
             this.Botton_Delete_MemInfo.UseVisualStyleBackColor = false;
-            this.Botton_Delete_MemInfo.Click += new System.EventHandler(this.Botton_Delete_MemInfo_Click);
             // 
             // Botton_Add_MemInfo
             // 
@@ -434,7 +433,6 @@
             this.Botton_Add_MemInfo.TabIndex = 21;
             this.Botton_Add_MemInfo.Text = "Add Customer";
             this.Botton_Add_MemInfo.UseVisualStyleBackColor = false;
-            this.Botton_Add_MemInfo.Click += new System.EventHandler(this.Botton_Add_MemInfo_Click);
             // 
             // Botton_CancelRes_MemInfo
             // 
@@ -460,7 +458,6 @@
             this.TextB_SesID_Cancel_MemInfo.Name = "TextB_SesID_Cancel_MemInfo";
             this.TextB_SesID_Cancel_MemInfo.Size = new System.Drawing.Size(207, 26);
             this.TextB_SesID_Cancel_MemInfo.TabIndex = 18;
-            this.TextB_SesID_Cancel_MemInfo.TextChanged += new System.EventHandler(this.textBox11_TextChanged);
             // 
             // Text_SesID_Cancel_MemInfo
             // 
@@ -509,7 +506,6 @@
             this.Text_PreSes_MemInfo.Size = new System.Drawing.Size(221, 35);
             this.Text_PreSes_MemInfo.TabIndex = 13;
             this.Text_PreSes_MemInfo.Text = "Previous Sessions:";
-            this.Text_PreSes_MemInfo.Click += new System.EventHandler(this.label18_Click);
             // 
             // Text_UpSes_MemInfo
             // 
@@ -564,7 +560,6 @@
             this.TextB_Pnr_MemInfo.Name = "TextB_Pnr_MemInfo";
             this.TextB_Pnr_MemInfo.Size = new System.Drawing.Size(207, 26);
             this.TextB_Pnr_MemInfo.TabIndex = 6;
-            this.TextB_Pnr_MemInfo.TextChanged += new System.EventHandler(this.TextB_Pnr_MemInfo_TextChanged);
             // 
             // Text_Mail_MemInfo
             // 
@@ -646,6 +641,23 @@
             this.Tab_Uppgift3_ERP.Text = "ERP";
             this.Tab_Uppgift3_ERP.UseVisualStyleBackColor = true;
             // 
+            // Text_Instructor_SesInfo
+            // 
+            this.Text_Instructor_SesInfo.AutoSize = true;
+            this.Text_Instructor_SesInfo.Font = new System.Drawing.Font("Calibri Light", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Text_Instructor_SesInfo.Location = new System.Drawing.Point(20, 177);
+            this.Text_Instructor_SesInfo.Name = "Text_Instructor_SesInfo";
+            this.Text_Instructor_SesInfo.Size = new System.Drawing.Size(104, 27);
+            this.Text_Instructor_SesInfo.TabIndex = 22;
+            this.Text_Instructor_SesInfo.Text = "Instructor:";
+            // 
+            // TextB_Instructor_SesInfo
+            // 
+            this.TextB_Instructor_SesInfo.Location = new System.Drawing.Point(144, 179);
+            this.TextB_Instructor_SesInfo.Name = "TextB_Instructor_SesInfo";
+            this.TextB_Instructor_SesInfo.Size = new System.Drawing.Size(207, 26);
+            this.TextB_Instructor_SesInfo.TabIndex = 23;
+            // 
             // BookingApp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -721,6 +733,8 @@
 		private System.Windows.Forms.Button Botton_Search_MemInfo;
 		private System.Windows.Forms.Button Botton_Delete_MemInfo;
 		private System.Windows.Forms.Button Botton_Add_MemInfo;
-	}
+        private System.Windows.Forms.TextBox TextB_Instructor_SesInfo;
+        private System.Windows.Forms.Label Text_Instructor_SesInfo;
+    }
 }
 

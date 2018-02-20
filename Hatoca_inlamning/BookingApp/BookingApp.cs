@@ -1,20 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
 using System.Data.SqlClient;
-using System.Data;
 
 namespace BookingApp
 {
-	public partial class BookingApp : Form
+    public partial class BookingApp : Form
 	{
 
-		public BookingApp()
+        public BookingApp()
 		{
 			InitializeComponent();
 		}
@@ -23,116 +16,32 @@ namespace BookingApp
 
 		}
 
-		private void tabPage1_Click(object sender, EventArgs e)
-		{
-
-		}
-
-		private void label2_Click(object sender, EventArgs e)
-		{
-
-		}
-
-		private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
-		{
-
-		}
-
-		private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-		{
-
-		}
-
-		private void Botton_Add_SesInfo_PK_Click(object sender, EventArgs e)
-		{
-
-		}
-
-		private void ListB_SesInfo_PK_SelectedIndexChanged(object sender, EventArgs e)
-		{
-
-		}
-
-		private void TextB_SesID_SesInfo_PK_TextChanged(object sender, EventArgs e)
-		{
-
-		}
-
-		private void Text_Time_SesInfo_PK_Click(object sender, EventArgs e)
-		{
-
-		}
-
-		private void label1_Click(object sender, EventArgs e)
-		{
-
-		}
-
-		private void label1_Click_1(object sender, EventArgs e)
-		{
-
-		}
-
-		private void tabPage5_Click(object sender, EventArgs e)
-		{
-
-		}
-
-		private void textBox11_TextChanged(object sender, EventArgs e)
-		{
-
-		}
-
-		private void label18_Click(object sender, EventArgs e)
-		{
-
-		}
-
-		private void button7_Click(object sender, EventArgs e)
-		{
-
-		}
-
-		private void button1_Click(object sender, EventArgs e)
-		{
-			string hej = "Lägg in add session metoden här";
-		}
-
-		private void tabPage4_Click(object sender, EventArgs e)
-		{
-
-		}
 
 		private void Botton_Add_SesInfo_Click(object sender, EventArgs e)
-		{
-			//Hatoca_inlamning.BookingContext bc = new Hatoca_inlamning.BookingContext();
-			//Gymsession gymsess = new Gymsession();
-
-		}
-
-        private void Text_SesID_SesInfo_Click(object sender, EventArgs e)
         {
+            string cs = null;
+            SqlConnection cnn = new SqlConnection(cs);
+            SqlCommand cmd;
+            string sql = null;
 
-        }
+            cs = "Data Source=LAPTOP-SCJU4H3Q;Initial Catalog=hatoca-inlamning;Integrated Security= SSPI;User ID=hatoca;Password=hatoca123;";
 
-        private void TextB_Pnr_MemInfo_TextChanged(object sender, EventArgs e)
-        {
+            try
+            {
+                cnn.Open();
+                cmd = new SqlCommand(sql, cnn);
+                cmd.ExecuteNonQuery();
+                cmd.Dispose();
+                cnn.Close();
+                MessageBox.Show("ExecuteNonQuery in SqlCommand executed!!");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Could not open SqlConnection!");
+            }
 
-        }
 
-        private void Botton_Add_MemInfo_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Botton_Delete_MemInfo_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Botton_Search_MemInfo_Click(object sender, EventArgs e)
-        {
-
+            //  TextB_SesID_SesInfo.Text + "','" + TextB_Title_SesInfo.Text + "','" + Date_Time_Date_SesInfo.Value + "','" + TextB_Spots_SesInfo.Text + "','" + TextB_Instructor_SesInfo.Text+ ")";
         }
     }
 }
