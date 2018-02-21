@@ -9,11 +9,73 @@ namespace BookingApp.PK.DAL
     class DALtest
     {
 
-        /*public string AddCustomer(string cpnr, string cname, string caddress, string ctel, string cmail)
+        BookingAppContext bd = new BookingAppContext();
+        string message;
+        public string AddCustomer(string cpnr, string cname, string caddress, string ctel, string cmail)
         {
-            using (BookingAppContext db = new BookingAppContext)
-                db.Customers.Add(new Customer());
-                db.Savechanges(); }*/
+            Customer c = new Customer();
+            try
+            {
+              List<Customer> customerlist = bd.Customers.Where(r => r.cpnr == cpnr).ToList();
 
+                if (customerlist.Count() == 0)
+                {
+                    bd.Customers.Add(new Customer());
+                    bd.SaveChanges();
+                    message = "kunden är tillagd";
+                    return message;
+                }
+            }
+            catch (InvalidOperationException)
+            {
+                bd.Customers.Remove(c);
+                throw new Exception("Databasfel, kontakta systemadminstratör!");
+            }
+
+            message = "Meddelande: Lägenhet ej tillagd då lägenhet redan existerar!";
+            return message;
+        }
     }
-}
+       /* public void AddGymsession(string gid, string gtitle, string gdate, string gmax_spots, string ginstructor)
+        {
+                bd.Gymsessions.Add(new Gymsession());
+                bd.SaveChanges(); */
+        }
+       /* public void DeleteGymsession(string gid)
+        {
+                bd.Gymsessions.Remove(Gymsession);
+                bd.SaveChanges();
+        }
+
+        public void DeleteCustomer(string cpnr)
+        {
+                bd.Customers.Remove(Customer);
+                bd.SaveChanges();
+        }
+        public void SearchGymsession(string gid, string gtitle)
+           
+            public void SearchCustomer(string cpnr, string cname)
+            { dal.SearchCustomer(cpnr, cname); }
+
+            public void ShowGymsessions()
+            { dal.ShowGymsessions(); } 
+
+            public string AddBooking(string cpnr, string gid)
+            {  }
+
+            public void CancelReservation(string cpnr, string gid)
+            { dal.CancelReservation(cpnr, gid); }
+            public Customer GetCustomer(string cpnr)
+            { return dal.GetCustomer(cpnr); }
+
+            public Gymsession GetGymsession(string gid)
+            { return dal.GetGymsession(gid); }
+
+            public void DeleteBooking(string cpnr, string gid)
+            { dal.DeleteBook(cpnr, gid); }
+
+            public void GetAllForCustomer(string cpnr)
+            { dal.GetAllForCustomer(cpnr); } */
+
+
+  

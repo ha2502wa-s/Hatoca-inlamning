@@ -1,4 +1,5 @@
 ﻿ using System;
+
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,11 +9,14 @@ namespace BookingApp.PK.Controller
 {
     class Controller
     {
-		private DataAccessLayer dal = new DataAccessLayer();
+        DALtest dal = new DALtest();
 
-		/*
-		 * public void AddGymSession(string gid)
-		{ dal.AddGymsession(gid); }
+        public string AddCustomer(string cpnr, string cname, string caddress, string ctel, string cmail)
+        {
+            return dal.AddCustomer(cpnr, cname, caddress, ctel, cmail);
+        }
+    
+        /*
 		public void AddCustomer(string cpnr)
         { dal.AddCustomer(cpnr);}
 
