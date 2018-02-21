@@ -58,8 +58,11 @@
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.EnterpriseServices" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Data" />
@@ -97,9 +100,13 @@
       <DependentUpon>BookingAppModel.tt</DependentUpon>
     </Compile>
     <Compile Include="PK\Controller\Controller.cs" />
+    <Compile Include="PK\Controller\ControllerERP.cs" />
+    <Compile Include="PK\Controller\ControllerWS.cs" />
     <Compile Include="PK\DAL\ConnectionFactory.cs" />
     <Compile Include="PK\DAL\DALtest.cs" />
     <Compile Include="PK\DAL\DataAccessLayer.cs" />
+    <Compile Include="PK\DAL\DataAccessLayerERP.cs" />
+    <Compile Include="PK\DAL\DataAccessLayerWS.cs" />
     <Compile Include="PK\DAL\Queries.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -120,7 +127,9 @@
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>BookingAppModel.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="App.Config" />
+    <None Include="App.Config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="BookingAppModel.edmx.diagram">
       <DependentUpon>BookingAppModel.edmx</DependentUpon>
     </None>
@@ -161,6 +170,12 @@
       <DependentUpon>BookingAppModel.edmx</DependentUpon>
       <LastGenOutput>BookingAppModel.cs</LastGenOutput>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
