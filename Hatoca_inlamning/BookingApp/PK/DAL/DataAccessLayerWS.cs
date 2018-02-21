@@ -3,15 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+//using BookingApp.WSReference;
 
 namespace BookingApp.PK.DAL
 {
 	class DataAccessLayerWS
 	{
 
-
-		ServiceReference.CSharpWebServiceSoapClient client = new ServiceReference.CSharpWebServiceSoapClient();
-		public string GetFileContent(string filename)
+		
+		//WSReference.CSharpWebServiceSoapClient client = new WSReference.CSharpWebServiceSoapClient();
+		/*public string GetFileContent(string filename)
 		{
 			try
 			{
@@ -21,6 +22,6 @@ namespace BookingApp.PK.DAL
 			{
 				throw new Exception();
 			}
-		}
+		}*/
 	}
 }
