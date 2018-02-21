@@ -19,7 +19,25 @@ namespace BookingApp
 
 		private void Botton_Add_SesInfo_Click(object sender, EventArgs e)
         {
-         /*
+            BookingAppContext bc = new BookingAppContext();
+            Gymsession g = new Gymsession();
+            g.gid = TextB_SesID_SesInfo.Text;
+            g.gtitle = TextB_Title_SesInfo.Text;
+            g.gdate = Date_Time_Date_SesInfo.Text;
+            g.gmax_spots = TextB_Spots_SesInfo.Text;
+            g.ginstructor = TextB_Instructor_SesInfo.Text;
+            
+            try {
+                bc.Gymsessions.Add(g);
+                bc.SaveChanges(); }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString(), "Varning det blev fel");
+                    }
+
+
+
+            /*
             string cs = null;
             SqlConnection cnn = new SqlConnection(cs);
             SqlCommand cmd;

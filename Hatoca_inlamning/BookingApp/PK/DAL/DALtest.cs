@@ -7,12 +7,13 @@ using System.Threading.Tasks;
 namespace BookingApp.PK.DAL
 {
     class DALtest
-    { /*
-       public void AddCustomer(string cpnr)
-        using (HatocaContext ha = new HatocaContext())
+    {
+
+        /*public string AddCustomer(string cpnr, string cname, string caddress, string ctel, string cmail)
         {
-        ha.Customers.Add(newCustomer);
-        ha.Savechanges();
-        }*/
-}
+            using (BookingAppContext db = new BookingAppContext)
+                db.Customers.Add(new Customer());
+                db.Savechanges(); }*/
+
+    }
 }
