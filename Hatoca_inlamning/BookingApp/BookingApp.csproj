@@ -97,9 +97,13 @@
       <DependentUpon>BookingAppModel.tt</DependentUpon>
     </Compile>
     <Compile Include="PK\Controller\Controller.cs" />
+    <Compile Include="PK\Controller\ControllerERP.cs" />
+    <Compile Include="PK\Controller\ControllerWS.cs" />
     <Compile Include="PK\DAL\ConnectionFactory.cs" />
     <Compile Include="PK\DAL\DALtest.cs" />
     <Compile Include="PK\DAL\DataAccessLayer.cs" />
+    <Compile Include="PK\DAL\DataAccessLayerERP.cs" />
+    <Compile Include="PK\DAL\DataAccessLayerWS.cs" />
     <Compile Include="PK\DAL\Queries.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
