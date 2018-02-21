@@ -1,4 +1,4 @@
-﻿namespace BookingApp
+﻿namespace HatocaGymBooking
 {
 	partial class BookingApp
 	{
@@ -82,10 +82,10 @@
 			this.Text_Pnr_MemInfo = new System.Windows.Forms.Label();
 			this.Text_MemInfo_MemInfo = new System.Windows.Forms.Label();
 			this.Tab_Uppgift2_Webbservice = new System.Windows.Forms.TabPage();
+			this.text_FilePath_WS = new System.Windows.Forms.Label();
 			this.textb_Content_WS = new System.Windows.Forms.TextBox();
 			this.btn_getFileContent_WS = new System.Windows.Forms.Button();
 			this.Tab_Uppgift3_ERP = new System.Windows.Forms.TabPage();
-			this.text_FilePath_WS = new System.Windows.Forms.Label();
 			this.tabControl1.SuspendLayout();
 			this.Tab_Uppgift1_PK.SuspendLayout();
 			this.tabControl2.SuspendLayout();
@@ -655,6 +655,15 @@
 			this.Tab_Uppgift2_Webbservice.Text = "Webbservice";
 			this.Tab_Uppgift2_Webbservice.UseVisualStyleBackColor = true;
 			// 
+			// text_FilePath_WS
+			// 
+			this.text_FilePath_WS.AutoSize = true;
+			this.text_FilePath_WS.Location = new System.Drawing.Point(29, 105);
+			this.text_FilePath_WS.Name = "text_FilePath_WS";
+			this.text_FilePath_WS.Size = new System.Drawing.Size(75, 20);
+			this.text_FilePath_WS.TabIndex = 3;
+			this.text_FilePath_WS.Text = "File Path:";
+			// 
 			// textb_Content_WS
 			// 
 			this.textb_Content_WS.Location = new System.Drawing.Point(337, 33);
@@ -665,12 +674,13 @@
 			// 
 			// btn_getFileContent_WS
 			// 
+			this.btn_getFileContent_WS.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.btn_getFileContent_WS.Location = new System.Drawing.Point(33, 33);
 			this.btn_getFileContent_WS.Name = "btn_getFileContent_WS";
 			this.btn_getFileContent_WS.Size = new System.Drawing.Size(176, 37);
 			this.btn_getFileContent_WS.TabIndex = 0;
 			this.btn_getFileContent_WS.Text = "Search File";
-			this.btn_getFileContent_WS.UseVisualStyleBackColor = true;
+			this.btn_getFileContent_WS.UseVisualStyleBackColor = false;
 			this.btn_getFileContent_WS.Click += new System.EventHandler(this.btn_getFileContent_WS_Click);
 			// 
 			// Tab_Uppgift3_ERP
@@ -682,15 +692,6 @@
 			this.Tab_Uppgift3_ERP.TabIndex = 2;
 			this.Tab_Uppgift3_ERP.Text = "ERP";
 			this.Tab_Uppgift3_ERP.UseVisualStyleBackColor = true;
-			// 
-			// text_FilePath_WS
-			// 
-			this.text_FilePath_WS.AutoSize = true;
-			this.text_FilePath_WS.Location = new System.Drawing.Point(29, 105);
-			this.text_FilePath_WS.Name = "text_FilePath_WS";
-			this.text_FilePath_WS.Size = new System.Drawing.Size(75, 20);
-			this.text_FilePath_WS.TabIndex = 3;
-			this.text_FilePath_WS.Text = "File Path:";
 			// 
 			// BookingApp
 			// 
@@ -769,8 +770,8 @@
 		private System.Windows.Forms.Button Botton_Search_MemInfo;
 		private System.Windows.Forms.Button Botton_Delete_MemInfo;
 		private System.Windows.Forms.Button Botton_Add_MemInfo;
-        private System.Windows.Forms.TextBox TextB_Instructor_SesInfo;
-        private System.Windows.Forms.Label Text_Instructor_SesInfo;
+		private System.Windows.Forms.TextBox TextB_Instructor_SesInfo;
+		private System.Windows.Forms.Label Text_Instructor_SesInfo;
 		private System.Windows.Forms.TextBox textb_Content_WS;
 		private System.Windows.Forms.Button btn_getFileContent_WS;
 		private System.Windows.Forms.Label text_FilePath_WS;

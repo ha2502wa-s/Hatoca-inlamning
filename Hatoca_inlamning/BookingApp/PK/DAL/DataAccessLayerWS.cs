@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-//using BookingApp.WSReference;
+using Booking;
 
 namespace BookingApp.PK.DAL
 {
@@ -11,8 +11,8 @@ namespace BookingApp.PK.DAL
 	{
 
 		
-		//WSReference.CSharpWebServiceSoapClient client = new WSReference.CSharpWebServiceSoapClient();
-		/*public string GetFileContent(string filename)
+		Booking.WebServiceRef.WebServiceSoapClient client = new Booking.WebServiceRef.WebServiceSoapClient();
+		public string GetFileContent(string filename)
 		{
 			try
 			{
@@ -22,6 +22,6 @@ namespace BookingApp.PK.DAL
 			{
 				throw new Exception();
 			}
-		}*/
+		}
 	}
 }
