@@ -75,6 +75,27 @@
     <Compile Include="BookingApp.Designer.cs">
       <DependentUpon>BookingApp.cs</DependentUpon>
     </Compile>
+    <Compile Include="BookingAppModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BookingAppModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BookingAppModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BookingAppModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BookingAppModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BookingAppModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Customer.cs">
+      <DependentUpon>BookingAppModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gymsession.cs">
+      <DependentUpon>BookingAppModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="PK\Controller\Controller.cs" />
     <Compile Include="PK\DAL\ConnectionFactory.cs" />
     <Compile Include="PK\DAL\DALtest.cs" />
@@ -95,6 +116,15 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EntityDeploy Include="BookingAppModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>BookingAppModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="App.Config" />
+    <None Include="BookingAppModel.edmx.diagram">
+      <DependentUpon>BookingAppModel.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -119,6 +149,18 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BookingAppModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>BookingAppModel.Context.cs</LastGenOutput>
+      <DependentUpon>BookingAppModel.edmx</DependentUpon>
+    </Content>
+    <Content Include="BookingAppModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>BookingAppModel.edmx</DependentUpon>
+      <LastGenOutput>BookingAppModel.cs</LastGenOutput>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
