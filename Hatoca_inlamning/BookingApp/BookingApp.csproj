@@ -75,29 +75,9 @@
     <Compile Include="BookingApp.Designer.cs">
       <DependentUpon>BookingApp.cs</DependentUpon>
     </Compile>
-    <Compile Include="Customer.cs">
-      <DependentUpon>HatocaModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Gymsession.cs">
-      <DependentUpon>HatocaModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="HatocaModel.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>HatocaModel.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="HatocaModel.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>HatocaModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="HatocaModel.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>HatocaModel.edmx</DependentUpon>
-    </Compile>
     <Compile Include="PK\Controller\Controller.cs" />
     <Compile Include="PK\DAL\ConnectionFactory.cs" />
+    <Compile Include="PK\DAL\DALtest.cs" />
     <Compile Include="PK\DAL\DataAccessLayer.cs" />
     <Compile Include="PK\DAL\Queries.cs" />
     <Compile Include="Program.cs" />
@@ -115,15 +95,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EntityDeploy Include="HatocaModel.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>HatocaModel.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <None Include="App.Config" />
-    <None Include="HatocaModel.edmx.diagram">
-      <DependentUpon>HatocaModel.edmx</DependentUpon>
-    </None>
-    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -148,18 +119,6 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="HatocaModel.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>HatocaModel.edmx</DependentUpon>
-      <LastGenOutput>HatocaModel.Context.cs</LastGenOutput>
-    </Content>
-    <Content Include="HatocaModel.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>HatocaModel.edmx</DependentUpon>
-      <LastGenOutput>HatocaModel.cs</LastGenOutput>
-    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

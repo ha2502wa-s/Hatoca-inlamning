@@ -10,7 +10,7 @@ namespace BookingApp.PK.DAL
 {
    public class ConnectionFactory
     {
-        string connectionString = "Data Source=LAPTOP-SCJU4H3Q;Initial Catalog=hatoca-inlamning;Integrated Security= SSPI;User ID=hatoca;Password=hatoca123;";
+       /* string connectionString = "Data Source=LAPTOP-SCJU4H3Q;Initial Catalog=hatoca-inlamning;Integrated Security= SSPI;User ID=hatoca;Password=hatoca123;";
 		SqlConnection conn;
 
         public void OpenConnection()

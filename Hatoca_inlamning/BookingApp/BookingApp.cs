@@ -19,6 +19,7 @@ namespace BookingApp
 
 		private void Botton_Add_SesInfo_Click(object sender, EventArgs e)
         {
+         /*
             string cs = null;
             SqlConnection cnn = new SqlConnection(cs);
             SqlCommand cmd;
@@ -37,11 +38,11 @@ namespace BookingApp
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Could not open SqlConnection!");
+                MessageBox.Show("Could not open SqlConnection!");*/
             }
 
 
             //  TextB_SesID_SesInfo.Text + "','" + TextB_Title_SesInfo.Text + "','" + Date_Time_Date_SesInfo.Value + "','" + TextB_Spots_SesInfo.Text + "','" + TextB_Instructor_SesInfo.Text+ ")";
         }
     }
-}
+
