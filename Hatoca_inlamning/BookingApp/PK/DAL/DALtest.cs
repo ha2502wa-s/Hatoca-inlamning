@@ -9,7 +9,7 @@ namespace BookingApp.PK.DAL
     class DALtest
     {
 
-        BookingAppContext bd = new BookingAppContext();
+        /*BookingAppContext bd = new BookingAppContext();
         string message;
         public string AddCustomer(string cpnr, string cname, string caddress, string ctel, string cmail)
         {
@@ -32,50 +32,72 @@ namespace BookingApp.PK.DAL
                 throw new Exception("Databasfel, kontakta systemadminstratör!");
             }
 
-            message = "Meddelande: Lägenhet ej tillagd då lägenhet redan existerar!";
+            message = "Meddelande: Kunden kunde inte bli tillagd då kunden med det personnummert redan existerar!";
             return message;
         }
     }
-       /* public void AddGymsession(string gid, string gtitle, string gdate, string gmax_spots, string ginstructor)
+    public void AddGymsession(string gid, string gtitle, string gdate, string gmax_spots, string ginstructor)
         {
                 bd.Gymsessions.Add(new Gymsession());
-                bd.SaveChanges(); */
+                bd.SaveChanges(); *
         }
-       /* public void DeleteGymsession(string gid)
+    public void DeleteGymsession(string gid)
         {
-                bd.Gymsessions.Remove(Gymsession);
-                bd.SaveChanges();
+         bd.Gymsessions.Remove(Gymsession);
+         bd.SaveChanges();
         }
 
-        public void DeleteCustomer(string cpnr)
+ public void DeleteCustomer(string cpnr)
+ {
+         bd.Customers.Remove(Customer);
+         bd.SaveChanges();
+ }
+ public void SearchGymsession(string gid, string gtitle)
+
+    -------------------
+
+    public List<Gymsession> GetAllGymsessions()
+    {
+     try
         {
-                bd.Customers.Remove(Customer);
-                bd.SaveChanges();
-        }
-        public void SearchGymsession(string gid, string gtitle)
-           
-            public void SearchCustomer(string cpnr, string cname)
-            { dal.SearchCustomer(cpnr, cname); }
+         List<Gymsession> GymsessionList = bd.Gymsessions.ToList();
 
-            public void ShowGymsessions()
-            { dal.ShowGymsessions(); } 
+         if (apartmentList.Count == 0)
+         {
+             return null;
+         }
 
-            public string AddBooking(string cpnr, string gid)
-            {  }
+         return apartmentList;
+     }
+     catch (InvalidOperationException)
+     {
+         throw new DatabaseException("Databasfel, kontakta systemadminstratör");
+     }
+ }
 
-            public void CancelReservation(string cpnr, string gid)
-            { dal.CancelReservation(cpnr, gid); }
-            public Customer GetCustomer(string cpnr)
-            { return dal.GetCustomer(cpnr); }
+     public void ShowGymsessions()
+     { dal.ShowGymsessions(); } 
 
-            public Gymsession GetGymsession(string gid)
-            { return dal.GetGymsession(gid); }
+     public string AddBooking(string cpnr, string gid)
+     {  }
 
-            public void DeleteBooking(string cpnr, string gid)
-            { dal.DeleteBook(cpnr, gid); }
+     public void CancelReservation(string cpnr, string gid)
+     { dal.CancelReservation(cpnr, gid); }
 
-            public void GetAllForCustomer(string cpnr)
-            { dal.GetAllForCustomer(cpnr); } */
+     public Customer GetCustomer(string cpnr)
+     { return dal.GetCustomer(cpnr); }
+
+     public Gymsession GetGymsession(string gid)
+     { return dal.GetGymsession(gid); }
+
+     public void DeleteBooking(string cpnr, string gid)
+     { dal.DeleteBook(cpnr, gid); }
+
+     public void GetAllForCustomer(string cpnr)
+     { dal.GetAllForCustomer(cpnr); } */
+
+    }
+}
 
 
-  
+
