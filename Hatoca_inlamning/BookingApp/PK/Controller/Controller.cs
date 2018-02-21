@@ -11,12 +11,11 @@ namespace BookingApp.PK.Controller
     {
         DALtest dal = new DALtest();
 
-        public string AddCustomer(string cpnr, string cname, string caddress, string ctel, string cmail)
+       /* public string AddCustomer(string cpnr, string cname, string caddress, string ctel, string cmail)
         {
             return dal.AddCustomer(cpnr, cname, caddress, ctel, cmail);
         }
     
-        /*
 		public void AddCustomer(string cpnr)
         { dal.AddCustomer(cpnr);}
 

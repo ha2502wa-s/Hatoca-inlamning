@@ -10,7 +10,7 @@ namespace BookingApp.PK.DAL
     class DALtest
     {
 
-        /*BookingAppContext bd = new BookingAppContext();
+       /* BookingAppContext bd = new BookingAppContext();
         string message;
         public string AddCustomer(string cpnr, string cname, string caddress, string ctel, string cmail)
         {
@@ -54,30 +54,26 @@ namespace BookingApp.PK.DAL
          bd.SaveChanges();
  }
  public void SearchGymsession(string gid, string gtitle)
-
+    { }
     -------------------
 
     public List<Gymsession> GetAllGymsessions()
     {
      try
         {
-         List<Gymsession> GymsessionList = bd.Gymsessions.ToList();
+         List<Gymsession> gymsessionList = bd.Gymsessions.ToList();
 
-         if (apartmentList.Count == 0)
+         if (gymsessionList.Count == 0)
          {
              return null;
          }
 
-         return apartmentList;
+         return gymsessionList;
      }
      catch (InvalidOperationException)
      {
-         throw new DatabaseException("Databasfel, kontakta systemadminstratör");
+         throw new Exception("Databasfel, kontakta systemadminstratör");
      }
- }
-
-     public void ShowGymsessions()
-     { dal.ShowGymsessions(); } 
 
      public string AddBooking(string cpnr, string gid)
      {  }
