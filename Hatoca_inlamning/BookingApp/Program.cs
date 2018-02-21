@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace BookingApp
+namespace HatocaGymBooking
 {
 	static class Program
 	{

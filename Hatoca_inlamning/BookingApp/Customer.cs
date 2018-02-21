@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace BookingApp
+namespace Booking
 {
     using System;
     using System.Collections.Generic;

@@ -1,14 +1,18 @@
 ﻿using System;
 using System.Windows.Forms;
 using System.Data.SqlClient;
-//using BookingApp.WSReference;
+using Booking;
+using Booking.WebServiceRef;
 using BookingApp.PK.Controller;
 
-namespace BookingApp
+namespace HatocaGymBooking
 {
+
 	public partial class BookingApp : Form
 	{
+		
 		ControllerWS controllerWS = new ControllerWS();
+		Booking.WebServiceRef.WebServiceSoapClient client = new Booking.WebServiceRef.WebServiceSoapClient();
 
 		public BookingApp()
 		{
@@ -66,7 +70,7 @@ namespace BookingApp
 
 		private void btn_getFileContent_WS_Click(object sender, EventArgs e)
 		{
-			/*try
+			try
 			{
 				FolderBrowserDialog b = new FolderBrowserDialog();
 				OpenFileDialog of = new OpenFileDialog();
@@ -75,7 +79,7 @@ namespace BookingApp
 
 				if (of.ShowDialog() == DialogResult.OK)
 				{
-					text_FilePath_WS.Text = "Sökväg: " + of.FileName;
+					text_FilePath_WS.Text = "File Path: " + of.FileName;
 					textb_Content_WS.Text = controllerWS.GetFileContent(of.FileName);
 				}
 			}
@@ -83,10 +87,9 @@ namespace BookingApp
 			{
 				//label2.Text = "Meddelande: " + ex.StackTrace;
 			}
-		}*/
+		}
 
 
 			//  TextB_SesID_SesInfo.Text + "','" + TextB_Title_SesInfo.Text + "','" + Date_Time_Date_SesInfo.Value + "','" + TextB_Spots_SesInfo.Text + "','" + TextB_Instructor_SesInfo.Text+ ")";
 		}
 	}
-}

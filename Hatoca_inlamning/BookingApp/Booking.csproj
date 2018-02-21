@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{0FFC3C5F-D5BC-40CC-8F9B-A6409E19532E}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>BookingApp</RootNamespace>
+    <RootNamespace>Booking</RootNamespace>
     <AssemblyName>BookingApp</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -93,6 +93,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>BookingAppModel.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Connected Services\WebServiceRef\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="Customer.cs">
       <DependentUpon>BookingAppModel.tt</DependentUpon>
     </Compile>
@@ -133,6 +138,10 @@
     <None Include="BookingAppModel.edmx.diagram">
       <DependentUpon>BookingAppModel.edmx</DependentUpon>
     </None>
+    <None Include="Connected Services\WebServiceRef\Booking.WebServiceRef.GetFileContentResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\WebServiceRef\WebService.wsdl" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -170,12 +179,22 @@
       <DependentUpon>BookingAppModel.edmx</DependentUpon>
       <LastGenOutput>BookingAppModel.cs</LastGenOutput>
     </Content>
+    <None Include="Connected Services\WebServiceRef\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Connected Services\WebServiceRef\configuration.svcinfo" />
+    <None Include="Connected Services\WebServiceRef\configuration91.svcinfo" />
+    <None Include="Connected Services\WebServiceRef\WebService.disco" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
     <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\WebServiceRef\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
