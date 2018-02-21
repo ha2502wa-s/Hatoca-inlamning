@@ -8,5 +8,12 @@ namespace BookingApp.PK.Controller
 {
 	class ControllerWS
 	{
+
+		DAL.DataAccessLayerWS dal = new DAL.DataAccessLayerWS();
+
+		public string GetFileContent(string filename)
+		{
+			return dal.GetFileContent(filename);
+		}
 	}
 }

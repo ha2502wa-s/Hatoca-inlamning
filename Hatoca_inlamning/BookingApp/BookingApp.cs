@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using BookingApp.ServiceReference;
 
 namespace BookingApp
 {
     public partial class BookingApp : Form
 	{
 
-        public BookingApp()
+		public BookingApp()
 		{
 			InitializeComponent();
 		}
@@ -58,6 +59,27 @@ namespace BookingApp
             {
                 MessageBox.Show("Could not open SqlConnection!");*/
             }
+
+		private void btn_getFileContent_WS_Click(object sender, EventArgs e)
+		{
+			try
+			{
+				FolderBrowserDialog b = new FolderBrowserDialog();
+				OpenFileDialog of = new OpenFileDialog();
+				of.Filter = "Text Fil (.txt)|*.txt";
+				of.Multiselect = false;
+
+				if (of.ShowDialog() == DialogResult.OK)
+				{
+					text_FilePath_WS.Text = "Sökväg: " + of.FileName;
+					//textb_Content_WS.Text = controller.GetFileContent(of.FileName);
+				}
+			}
+			catch (Exception ex)
+			{
+				//label2.Text = "Meddelande: " + ex.StackTrace;
+			}
+		}
 
 
 		//  TextB_SesID_SesInfo.Text + "','" + TextB_Title_SesInfo.Text + "','" + Date_Time_Date_SesInfo.Value + "','" + TextB_Spots_SesInfo.Text + "','" + TextB_Instructor_SesInfo.Text+ ")";

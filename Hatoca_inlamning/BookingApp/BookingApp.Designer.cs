@@ -82,10 +82,10 @@
 			this.Text_Pnr_MemInfo = new System.Windows.Forms.Label();
 			this.Text_MemInfo_MemInfo = new System.Windows.Forms.Label();
 			this.Tab_Uppgift2_Webbservice = new System.Windows.Forms.TabPage();
-			this.Tab_Uppgift3_ERP = new System.Windows.Forms.TabPage();
-			this.btn_getFileContent_WS = new System.Windows.Forms.Button();
-			this.Text_FilePath_WS = new System.Windows.Forms.Label();
 			this.textb_Content_WS = new System.Windows.Forms.TextBox();
+			this.btn_getFileContent_WS = new System.Windows.Forms.Button();
+			this.Tab_Uppgift3_ERP = new System.Windows.Forms.TabPage();
+			this.text_FilePath_WS = new System.Windows.Forms.Label();
 			this.tabControl1.SuspendLayout();
 			this.Tab_Uppgift1_PK.SuspendLayout();
 			this.tabControl2.SuspendLayout();
@@ -644,8 +644,8 @@
 			// 
 			// Tab_Uppgift2_Webbservice
 			// 
+			this.Tab_Uppgift2_Webbservice.Controls.Add(this.text_FilePath_WS);
 			this.Tab_Uppgift2_Webbservice.Controls.Add(this.textb_Content_WS);
-			this.Tab_Uppgift2_Webbservice.Controls.Add(this.Text_FilePath_WS);
 			this.Tab_Uppgift2_Webbservice.Controls.Add(this.btn_getFileContent_WS);
 			this.Tab_Uppgift2_Webbservice.Location = new System.Drawing.Point(4, 29);
 			this.Tab_Uppgift2_Webbservice.Name = "Tab_Uppgift2_Webbservice";
@@ -654,6 +654,24 @@
 			this.Tab_Uppgift2_Webbservice.TabIndex = 1;
 			this.Tab_Uppgift2_Webbservice.Text = "Webbservice";
 			this.Tab_Uppgift2_Webbservice.UseVisualStyleBackColor = true;
+			// 
+			// textb_Content_WS
+			// 
+			this.textb_Content_WS.Location = new System.Drawing.Point(337, 33);
+			this.textb_Content_WS.Multiline = true;
+			this.textb_Content_WS.Name = "textb_Content_WS";
+			this.textb_Content_WS.Size = new System.Drawing.Size(674, 442);
+			this.textb_Content_WS.TabIndex = 2;
+			// 
+			// btn_getFileContent_WS
+			// 
+			this.btn_getFileContent_WS.Location = new System.Drawing.Point(33, 33);
+			this.btn_getFileContent_WS.Name = "btn_getFileContent_WS";
+			this.btn_getFileContent_WS.Size = new System.Drawing.Size(176, 37);
+			this.btn_getFileContent_WS.TabIndex = 0;
+			this.btn_getFileContent_WS.Text = "Search File";
+			this.btn_getFileContent_WS.UseVisualStyleBackColor = true;
+			this.btn_getFileContent_WS.Click += new System.EventHandler(this.btn_getFileContent_WS_Click);
 			// 
 			// Tab_Uppgift3_ERP
 			// 
@@ -665,31 +683,14 @@
 			this.Tab_Uppgift3_ERP.Text = "ERP";
 			this.Tab_Uppgift3_ERP.UseVisualStyleBackColor = true;
 			// 
-			// btn_getFileContent_WS
+			// text_FilePath_WS
 			// 
-			this.btn_getFileContent_WS.Location = new System.Drawing.Point(33, 33);
-			this.btn_getFileContent_WS.Name = "btn_getFileContent_WS";
-			this.btn_getFileContent_WS.Size = new System.Drawing.Size(176, 37);
-			this.btn_getFileContent_WS.TabIndex = 0;
-			this.btn_getFileContent_WS.Text = "Search File";
-			this.btn_getFileContent_WS.UseVisualStyleBackColor = true;
-			// 
-			// Text_FilePath_WS
-			// 
-			this.Text_FilePath_WS.AutoSize = true;
-			this.Text_FilePath_WS.Location = new System.Drawing.Point(33, 87);
-			this.Text_FilePath_WS.Name = "Text_FilePath_WS";
-			this.Text_FilePath_WS.Size = new System.Drawing.Size(75, 20);
-			this.Text_FilePath_WS.TabIndex = 1;
-			this.Text_FilePath_WS.Text = "File Path:";
-			// 
-			// textb_Content_WS
-			// 
-			this.textb_Content_WS.Location = new System.Drawing.Point(337, 33);
-			this.textb_Content_WS.Multiline = true;
-			this.textb_Content_WS.Name = "textb_Content_WS";
-			this.textb_Content_WS.Size = new System.Drawing.Size(674, 442);
-			this.textb_Content_WS.TabIndex = 2;
+			this.text_FilePath_WS.AutoSize = true;
+			this.text_FilePath_WS.Location = new System.Drawing.Point(29, 105);
+			this.text_FilePath_WS.Name = "text_FilePath_WS";
+			this.text_FilePath_WS.Size = new System.Drawing.Size(75, 20);
+			this.text_FilePath_WS.TabIndex = 3;
+			this.text_FilePath_WS.Text = "File Path:";
 			// 
 			// BookingApp
 			// 
@@ -771,8 +772,8 @@
         private System.Windows.Forms.TextBox TextB_Instructor_SesInfo;
         private System.Windows.Forms.Label Text_Instructor_SesInfo;
 		private System.Windows.Forms.TextBox textb_Content_WS;
-		private System.Windows.Forms.Label Text_FilePath_WS;
 		private System.Windows.Forms.Button btn_getFileContent_WS;
+		private System.Windows.Forms.Label text_FilePath_WS;
 	}
 }
 
