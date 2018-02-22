@@ -10,8 +10,10 @@ namespace BookingApp.PK.DAL
     class DALtest
     {
 
-       /* BookingAppContext bd = new BookingAppContext();
-        string message;
+      /* BookingAppContext bd = new BookingAppContext();
+       string message;
+
+
         public string AddCustomer(string cpnr, string cname, string caddress, string ctel, string cmail)
         {
             Customer c = new Customer();
@@ -36,23 +38,76 @@ namespace BookingApp.PK.DAL
             message = "Meddelande: Kunden kunde inte bli tillagd då kunden med det personnummert redan existerar!";
             return message;
         }
-    }
-    public void AddGymsession(string gid, string gtitle, string gdate, string gmax_spots, string ginstructor)
+   
+        public string AddGymsession(string gid, string gtitle, string gdate, string gmax_spots, string ginstructor)
         {
+            Gymsession g = new Gymsesssion();
+            try
+            {
+            List<Gymsession> Gymsessionlist = bd.Gymsessions.Where(r => r.gid == gid).ToList();
+
+            if (Gymsessionlist.Count() == 0)
+            {
                 bd.Gymsessions.Add(new Gymsession());
-                bd.SaveChanges(); *
+                bd.SaveChanges();
+                message = "The gymsession is added";
+                return message;
+            }
         }
-    public void DeleteGymsession(string gid)
+        catch (InvalidOperationException)
         {
-         bd.Gymsessions.Remove(Gymsession);
-         bd.SaveChanges();
+            bd.Gymsession.Remove(g);
+            throw new Exception("Databasfel, kontakta systemadminstratör!");
+        }
+
+        message = "Meddelande: Träningspasset kunde inte bli tillagd då träningspasset med det id:et redan existerar!";
+        return message;
+        }
+         public void DeleteGymsession(string gid)
+        {
+            try
+            {
+                List<Gymsession> gymsessionList = bd.Gymsessions.Where(r => r.gid == gid).ToList();
+
+                if (gymsessionList.Count() != 0)
+                {
+                    Apartment a = con.Apartment.First(r => r.apartmentNr == apartmentNr);
+                    con.Apartment.Remove(a);
+                    con.SaveChanges();
+                    return message = "Meddelande: Lägenhet borttagen!";
+                }
+            }
+            catch (InvalidOperationException)
+            {
+                throw new DatabaseException("Databasfel, kontakta systemadminstratör!");
+            }
+            message = "Meddelande: Borttagning misslyckades, lägenheten finns inte!";
+            return message;
+
         }
 
  public void DeleteCustomer(string cpnr)
  {
-         bd.Customers.Remove(Customer);
-         bd.SaveChanges();
- }
+        try
+        {
+            List<Gymsession> gymsessionList = bd.Gymsessions.Where(r => r.gid == gid).ToList();
+
+            if (gymsessionList.Count() != 0)
+            {
+                Apartment a = con.Apartment.First(r => r.apartmentNr == apartmentNr);
+                con.Apartment.Remove(a);
+                con.SaveChanges();
+                return message = "Meddelande: Lägenhet borttagen!";
+            }
+        }
+        catch (InvalidOperationException)
+        {
+            throw new DatabaseException("Databasfel, kontakta systemadminstratör!");
+        }
+        message = "Meddelande: Borttagning misslyckades, lägenheten finns inte!";
+        return message;
+    }
+    
  public void SearchGymsession(string gid, string gtitle)
     { }
     -------------------
@@ -60,9 +115,7 @@ namespace BookingApp.PK.DAL
     public List<Gymsession> GetAllGymsessions()
     {
      try
-        {
-         List<Gymsession> gymsessionList = bd.Gymsessions.ToList();
-
+        { List<Gymsession> gymsessionList = bd.Gymsessions.ToList();
          if (gymsessionList.Count == 0)
          {
              return null;
@@ -91,7 +144,7 @@ namespace BookingApp.PK.DAL
      { dal.DeleteBook(cpnr, gid); }
 
      public void GetAllForCustomer(string cpnr)
-     { dal.GetAllForCustomer(cpnr); } */
+     { dal.GetAllForCustomer(cpnr); }*/
 
     }
 }
