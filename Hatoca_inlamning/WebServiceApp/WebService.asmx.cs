@@ -14,6 +14,42 @@ namespace WebServiceApp
 
 	public class WebService : System.Web.Services.WebService
 	{
+		/*
+		public class Gymsession
+		{
+			private string gid;
+
+			public string Gid
+			{
+				get { return gid; }
+				set { gid = value; }
+			}
+
+			public Gymsession() { }
+
+			public Gymsession(global::Gymsession gymsession)
+			{
+				Gid = gymsession.gid;
+			}
+		}
+
+		public class Customer
+		{
+			private String cpnr;
+
+			public String Cpnr
+			{
+				get { return cpnr; }
+				set { cpnr = value; }
+			}
+
+			public Customer() { }
+
+			public Customer(global::Customer customer)
+			{
+				Cpnr = customer.cpnr;
+			}
+		}*/
 
 		[WebMethod]
 		public string GetFileContent(string filename)
@@ -28,5 +64,37 @@ namespace WebServiceApp
 			}
 			return null;
 		}
+		/*
+		[WebMethod]
+		public List<Gymsession> GetAllGymsessions()
+		{
+			List<Gymsession> gymsessions = new List<Gymsession>();
+
+
+			foreach (global::Gymsession gymsessions in controller.GetAllGymsessions())
+			{
+				Gymsession newGymsession = new Gymsession(gymsession);
+				gymsessions.Add(newGymsession);
+			}
+
+			return apartments;
+
+		}
+
+		[WebMethod]
+		public List<Customer> GetAllCustomers()
+		{
+		List<Customer> customers = new List<Customers>();
+
+		foreach (global::Customer customers in controller.GetAllCustomers())
+		{
+		Customer newCustomer = new Customer(customer);
+		customers.Add(newCustomer);
+		}
+		return customers;
+		}
+
+		*/
+
 	}
 }
